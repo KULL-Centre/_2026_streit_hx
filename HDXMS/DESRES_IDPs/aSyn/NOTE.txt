@@ -1,0 +1,3 @@
+traj0.xtc is the downsampled traj
+
+

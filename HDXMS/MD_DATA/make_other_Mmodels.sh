@@ -1,0 +1,28 @@
+#!/bin/bash
+
+module load miniconda/py39_23.1
+source activate HDXproject
+
+code_path='/projects/lindorff_group/people/thd711/HDXMS/code/'
+
+
+
+for DIR in {Angiotensin,Bradykinin,aSyn,Ab42,Tau}; do
+	echo $DIR
+	cd $DIR
+	for model in {M14,M14DH,M14DH_scaled}; do
+	#for model in {M11,M11DH,M11DH_scaled,M12,M12DH,M12DH_scaled,M14,M14DH,M14DH_scaled}; do 
+		mkdir $model/
+
+		python $code_path/make_$model.py --pdb protein.pdb --name $DIR --save_dir $model/
+
+	done
+		
+	cd ..
+	echo "Done!"
+
+done
+
+conda deactivate
+
+

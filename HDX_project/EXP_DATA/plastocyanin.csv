@@ -1,0 +1,21 @@
+﻿#METADATA
+#temp:293
+#pH:7.0
+#ionic:0.121
+#experiment:NMR
+#type:HH
+#conc:0.9
+#sequence:ISMSEEDLLNAK
+#doi:https://doi.org/10.1007/BF00197811
+#note:HH rates measured by NMR (MEXICO experiment) in 10 mM potassium phosphate, 100 mM NaCl, 10% D2O, 90% H2O, pH 7.0 at 293 K. 
+Residue,Model_residue,kobs,kobs_error
+3,3,35,4
+4,4,14.9,1
+5,5,6.8,0.3
+6,6,1.47,0.11
+7,7,2.06,0.12
+8,8,0.54,0.09
+9,9,0.67,0.09
+10,10,5.4,0.3
+11,11,5.8,0.3
+12,12,0.41,0.08

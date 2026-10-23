@@ -1,0 +1,16 @@
+﻿#METADATA
+#temp:278
+#pH:4.35
+#ionic:0.04
+#experiment:NMR
+#type:HD
+#conc:1.0
+#sequence:YYDPETGTWY
+#doi:https://doi.org/10.1021/ja8030533
+#note:HD exchange measured in 100% D2O at pH read 3.95 in 40 mM sodium citric acid buffer. Converted reported PFs to kobs using Bai 1993 parameters, as this is how the reported PFs were obtained. Fraction of folded state at 277 K (0.982) measured by CD (in H2O, 20 mM potassium phosphate buffer, pH 7) is equal to a dG of folding of -2.2 kcal/mol.
+Residue,Model_residue,kobs,kobs_error,kint,PF,PF_error,logPF,logPF_error
+3,3,0.00010893,1.0893E-05,0.0029411,27,2.7,1.431363764,0.0434
+5,5,0.000358,0.0000358,0.000716,2,0.2,0.301029996,0.0434
+7,7,0.0000635,0.00000635,0.00254,40,4,1.602059991,0.0434
+8,8,0.000032,0.0000032,0.001088,34,3.4,1.531478917,0.0434
+9,9,3.33119E-05,3.33119E-06,0.00053299,16,1.6,1.204119983,0.0434

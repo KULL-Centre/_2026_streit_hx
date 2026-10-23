@@ -1,0 +1,3 @@
+note that CS measurements were made in 99% D2O (pHread 7.0) whereas HX measurements were made in ~50/50 H2O/D2O mixtures
+
+

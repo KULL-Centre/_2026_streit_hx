@@ -1,0 +1,3 @@
+the C-terminus (residues 204-212, 158-166 in the model) is in slow exchange between a disordered and ordered state on the NMR timescale
+the present CS and amide S2_HN data are for the ordered state which is predominantly sampled in the simulations
+

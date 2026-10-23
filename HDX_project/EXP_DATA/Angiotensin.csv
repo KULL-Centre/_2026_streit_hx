@@ -1,0 +1,12 @@
+﻿#METADATA
+#temp:293
+#pH:7.4
+#ionic:0.017
+#experiment:MS
+#type:HD
+#conc:0.95
+#sequence:DRVYIHP
+#doi:https://doi.org/10.1021/acs.analchem.4c03631
+#note: buffer 20 mM Tris 
+Residue,Model_residue,kobs,kobs_error
+[1-9],[1-9],4.2,0.1

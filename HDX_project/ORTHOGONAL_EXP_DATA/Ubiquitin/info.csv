@@ -1,0 +1,5 @@
+Experiment,Temp(K),pH,Ionic(M),S2_iso_tauc,DOI
+SAXS,283,5.5,0.035,nan,https://www.sasbdb.org/data/SASDAQ2/
+CS,298,4.6,0.02,nan,https://doi.org/10.1021/ja077282o
+S2_NH,300,4.7,0.010,4.1,https://doi.org/10.1021/ja00155a020
+dG,303,6.2,0.060,nan,https://doi.org/10.1016/S0969-2126(99)80123-3

@@ -1,0 +1,2 @@
+global rotational tumbling time not reported in paper - used a value of 5 ns
+

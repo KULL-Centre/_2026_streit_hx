@@ -1,0 +1,27 @@
+﻿#METADATA
+#temp:298
+#pH:7.65
+#ionic:0.137
+#experiment:NMR
+#type:HH
+#conc:0.9
+#sequence:STLFEALYDYEARTEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETAYIPSNYVAPVDR
+#doi:https://doi.org/10.1073/pnas.1405011111
+#note:HH rates measured with a CEST NMR approach at pH 7.65 in 10% D2O/90% H2O and 50 mM sodium phosphate at 298 K. Only residues with 15N chemical shift differences between the ground and excited state of more than 1 ppm were included to ensure robust rate estimates. Only residues for which the lower bound rate (value - error) was positive were included.
+Residue,Model_residue,kobs,kobs_error
+12,12,0.3,0.200997512
+13,13,2.46,0.401995025
+14,14,0.98,0.202237484
+15,15,24.69,1.500133327
+16,16,1.76,0.200997512
+17,17,0.34,0.200997512
+26,26,0.25,0.203960781
+29,29,0.35,0.304138127
+30,30,4.69,0.202237484
+32,32,5.06,0.400499688
+35,35,30.9,2.100095236
+43,43,1.91,0.202237484
+44,44,6.1,0.500899191
+53,53,0.65,0.301496269
+59,59,3.62,0.200997512
+60,60,0.32,0.100498756

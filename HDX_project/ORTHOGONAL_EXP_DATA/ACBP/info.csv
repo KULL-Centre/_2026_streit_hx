@@ -1,0 +1,4 @@
+Experiment,Temp(K),pH,Ionic(M),S2_iso_tauc,DOI
+RDC_HN,nan,nan,nan,nan,nan
+NOE,nan,nan,nan,nan,nan
+dG,298,6.65,0.072,nan,https://doi.org/10.1006/jmbi.1995.0409

@@ -1,0 +1,21 @@
+﻿#METADATA
+#temp:274
+#pH:9.05
+#ionic:0.01
+#experiment:NMR
+#type:DH
+#conc:0.5
+#sequence:AAQAAAAQAAAAQAA
+#doi:https://doi.org/10.1021/ja00097a039
+#note: peptide N-terminus caped with Ace group, C-terminus is NH2 (residues 1 and 17 in the PDB model, respectively). Note that pH is average (range 8.68-8.86) and D2O conc also (range 44-57%). pH of solutions was adjusted to specified values -  estimate of ionic strength 0.01 M given here. Reported pH values correspond to direct meter readings, and exemplar residues were measured at pH (read) ~8.85.
+Residue,Model_residue,kobs,kobs_error,kint,PF,PF_error
+2,3,33.1,2.6,32.0,0.97,0.08
+3,4,40.0,0.4,47.7,1.19,0.01
+6,7,31.2,0.5,24.8,1.79,0.04
+7,8,18.9,0.4,38.2,2.02,0.04
+8,9,16.2,2.7,38.0,2.35,0.4
+10,11,13.2,0.2,31.1,2.36,0.04
+11,12,16.8,2.2,30.3,1.80,0.24
+12,13,14.6,0.2,34.6,2.37,0.03
+13,14,18.5,0.5,47.9,2.59,0.07
+15,16,18.9,0.4,30.5,1.61,0.03

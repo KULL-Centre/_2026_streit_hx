@@ -1,0 +1,24 @@
+﻿#METADATA
+#temp:274
+#pH:7.4
+#ionic:0.01
+#experimenti:NMR
+#sequence:AAQAAAAQAAAAQAA
+#doi:https://doi.org/10.1021/ja00097a039
+#note: helicity estimated from carbonyl chemical shift changes over temperature range that captures folding/unfolding  - table 3 in the paper, error not given assigned error as 10% (relative error). Measured in D2O (pH* 7.0)
+Residue,Model_residue,helicity(%),Error
+1,2,45,4.5
+2,3,49,4.9
+3,4,56,5.6
+4,5,54,5.4
+5,6,59,5.9
+6,7,56,5.6
+7,8,57,5.7
+8,9,59,5.9
+9,10,55,5.5
+10,11,49,4.9
+11,12,39,3.9
+12,13,35,3.5
+13,14,37,3.7
+14,15,12,1.2
+15,16,0,0

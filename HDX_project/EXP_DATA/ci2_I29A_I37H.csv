@@ -1,0 +1,19 @@
+﻿#METADATA
+#temp:293
+#pH:6.9
+#ionic:0.103
+#experiment:NMR
+#type:DH
+#conc:0.5
+#sequence:LKTEWPELVGKSVEEAKKVILQDKPEAQAIVLPVGTHVTMEYRIDRVRLFVDKLDNIAQVPRVG
+#doi:https://doi.org/10.1002/pro.2318
+#note:DH rates were measured with SOLEXSY NMR in 50 mM sodium phosphate (pH corr 6.9), 50% H2O, 50% D2O at 293 K. kint values were calculated by the authors using the Bai 1993 parameters and a pKw of 14.61 (due to the 50/50 H2O/D2O mixture). Rates were also halved to account for the 50% H2O concentration.
+Residue,Model_residue,kobs,kobs_error,kint,PF,PF_error,logPF,logPF_error
+3,4,0.7,0.2,1.35,1.928571429,0.551020408,0.285235728,0.124
+35,36,0.56,0.04,1.63,2.910714286,0.207908163,0.463999577,0.031
+39,40,0.4,0.2,0.74,1.85,0.925,0.267171728,0.217
+40,41,2.58,0.04,1.87,0.724806202,0.011237305,-0.139778099,0.006728682
+41,42,0.5,0.1,0.48,0.96,0.192,-0.017728767,0.0868
+42,43,0.57,0.02,0.46,0.807017544,0.028316405,-0.093117024,0.01522807
+53,54,0.67,0.03,0.73,1.089552239,0.048785921,0.037248057,0.019432836
+60,61,0.35,0.08,0.38,1.085714286,0.248163265,0.035715552,0.0992

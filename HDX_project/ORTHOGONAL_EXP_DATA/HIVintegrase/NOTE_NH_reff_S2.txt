@@ -1,0 +1,5 @@
+Bond length set for N-H: not reported, default value of ModelFree assumed (1.04 Angstrom)
+15N CSA: not reported
+Scaling: 1.00
+
+

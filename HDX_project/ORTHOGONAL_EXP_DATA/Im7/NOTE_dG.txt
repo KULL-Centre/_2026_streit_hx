@@ -1,0 +1,6 @@
+dG.dat is N-U state
+dG_NI.dat is N-I state
+
+both measured in 100% D2O pH* 7.0 (same buffer as HDX experiments)
+
+

@@ -1,0 +1,8 @@
+Experiment,Temp(K),pH,Ionic(M),PRE_MHz,DOI
+SAXS,278,7.4,0.2,,https://doi.org/10.1002/pro.435
+CS,310,6.5,0.033,,https://doi.org/10.1021/ja4045532
+RDC_HN,310,6.5,0.033,,https://doi.org/10.1021/ja4045532
+PRE-I-3,310,6.5,0.033,800,https://doi.org/10.1021/ja4045532
+PRE-I-21,310,6.5,0.033,800,https://doi.org/10.1021/ja4045532
+PRE-I-41,310,6.5,0.033,800,https://doi.org/10.1021/ja4045532
+PRE-I-61,310,6.5,0.033,800,https://doi.org/10.1021/ja4045532

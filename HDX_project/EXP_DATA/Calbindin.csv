@@ -1,0 +1,16 @@
+﻿#METADATA
+#temp:311
+#pH:6.9
+#ionic:0.0015
+#experiment:NMR
+#type:HH
+#conc:1.0
+#sequence:MKSPEELKGIFEKYAAKEGDPNQLSKEELKLLLQTEFPSLLKGGSTLDELFEELDKNGDGEVSFEEFQVLVKKISQ
+#doi:https://doi.org/10.1002/cphc.201801044
+#note:measured by CON-DECOR NMR experiments in 0.01% sodium azide ( ~1.5 mM, MW=65 g/mol ), 93% H2O, 7% D2O
+Residue,Model_residue,kobs,kobs_error
+4,4,15.3,0.3
+18,18,33.9,0.2
+38,38,31.4,0.5
+42,42,62.1,0.3
+43,43,53.7,1.2

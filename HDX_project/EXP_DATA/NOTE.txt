@@ -1,0 +1,9 @@
+WARNING:
+- NTail PFs calculated with Nguyen 2018 rates are ~2x lower than reported values with Bai 1993 in the paper - when the kint values from figure 7a are used to get kobs. --> hence kint with Bai 1993 were calculated in -house to get kobs from PF in Fig. 7c
+
+for all entries, protection factors are calculated using Nguyen 2018 reference rates and the provided experimental conditions.
+
+EXCEPT:
+
+- AAQAA3 had different experimental conditions for each residue (measured separately), raning from pH meter readings from 8.68 to 8.86 and 44% to 57% D2O. We thus use the reported protection factors of the paper, corrected for the expected increase in intrinsic rate (base-catalysed) --> increased by a factor of 1.34896 (DH rate constant base-catalysed)
+

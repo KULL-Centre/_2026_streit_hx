@@ -1,0 +1,5 @@
+Bond length set for N-H: 1.02 Angstrom
+15N CSA: -170 ppm
+Scaling: 0.89
+
+

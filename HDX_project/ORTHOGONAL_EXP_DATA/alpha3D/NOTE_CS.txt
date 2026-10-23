@@ -1,0 +1,3 @@
+used shifts from bmrb 4126 but due to referencing inconsistency used bmrb 25177 (after removing the mutated CYS residues and their neighbours) for referencing by shifting all 1H, 15N, 13C shifts in BMRB 4126 with a constant offset to maximise agreement with bmrb 25177 which was referenced properly
+
+

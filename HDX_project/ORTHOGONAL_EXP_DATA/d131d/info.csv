@@ -1,0 +1,17 @@
+Experiment,Temp(K),pH,Ionic(M),PRE_MHz,DOI
+CS,283,6.0,0.114,nan,https://doi.org/10.1038/s41594-024-01337-z
+RDC_HN,305,5.2,nan,nan,https://doi.org/10.1126/science.1060438
+PRE-I-10,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-19,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-36,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-43,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-48,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-55,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-62,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-69,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-75,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-88,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-104,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-107,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+PRE-I-114,305,5.3,0.008,600,https://doi.org/10.1006/jmbi.1997.0954
+Rg,298,7.5,0.010,nan,https://doi.org/10.1073/pnas.89.2.748

@@ -1,0 +1,3 @@
+Experiment,Temp(K),pH,Ionic(M),S2_iso_tauc,DOI
+CS,318,3.6,0.010,nan,https://doi.org/10.1023/A:1008359624072
+S2_NH,308,3.8,0.010,5.7,https://doi.org/10.1021/bi00012a023

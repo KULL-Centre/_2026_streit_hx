@@ -1,0 +1,5 @@
+Bond length set for N-H: 1.04 Angstrom
+15N CSA: residue-specific
+Scaling: 1.00
+
+

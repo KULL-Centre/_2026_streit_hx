@@ -1,0 +1,4 @@
+Experiment,Temp(K),pH,Ionic(M),DOI
+CS,298,6.5,0.132,https://doi.org/10.1002/jmr.1010
+RDC_HN,298,7.0,0.16,https://doi.org/10.1073/pnas.1103270108
+Rg,298,7.0,0.16,https://doi.org/10.1073/pnas.1103270108

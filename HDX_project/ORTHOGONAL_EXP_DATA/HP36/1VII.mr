@@ -1,0 +1,1022 @@
+*HEADER   ACTIN BINDING                           15-JAN-97   1VII    
+*TITLE    THERMOSTABLE SUBDOMAIN FROM CHICKEN VILLIN HEADPIECE,       
+*TITLE   2 NMR, MINIMIZED AVERAGE STRUCTURE                           
+*COMPND   MOL_ID: 1;                                                  
+*COMPND  2 MOLECULE: VILLIN;                                          
+*COMPND  3 CHAIN: NULL;                                               
+*COMPND  4 FRAGMENT: THERMOSTABLE SUBDOMAIN;                          
+*COMPND  5 SYNONYM: HP-36, R42-76;                                    
+*COMPND  6 ENGINEERED: YES                                            
+*SOURCE   MOL_ID: 1;                                                  
+*SOURCE  2 ORGANISM_SCIENTIFIC: GALLUS GALLUS;                        
+*SOURCE  3 ORGANISM_COMMON: CHICKEN;                                  
+*SOURCE  4 ORGAN: INTESTINE;                                          
+*SOURCE  5 TISSUE: EPITHELIUM;                                        
+*SOURCE  6 CELL: EPITHELIAL;                                          
+*SOURCE  7 CELLULAR_LOCATION: MICROVILLI;                             
+*SOURCE  8 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                       
+*SOURCE  9 EXPRESSION_SYSTEM_STRAIN: BL21;                            
+*SOURCE 10 EXPRESSION_SYSTEM_CELLULAR_LOCATION: CYTOPLASM;            
+*SOURCE 11 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                    
+*SOURCE 12 EXPRESSION_SYSTEM_PLASMID: PVHP42-76B                      
+*KEYWDS   ACTIN BINDING, 3 HELIX MOTIF, THERMOSTABLE SUBDOMAIN        
+*EXPDTA   NMR, MINIMIZED AVERAGE STRUCTURE                            
+*AUTHOR   C.J.MCKNIGHT                                                
+*REVDAT  1   12-AUG-97 1VII    0                                      
+
+!Constraints used in Xplor calculation of the villin headpiece subdomain HP-36.
+!
+!NOE constraints
+!
+!long range noes = 55
+!medium range noes = 95
+!sequential  noes = 113
+!intra residue noes = 254
+class = unamb 
+assign (resid 64 and name HN  ) (resid 62 and name HB2 ) 3.8 2.0 0.7!4.98e+00 1.77e+03
+assign (resid 64 and name HE3 ) (resid 64 and name HA  ) 3.8 2.0 0.7!4.83e+00 2.11e+03
+assign (resid 70 and name HN  ) (resid 68 and name HA  ) 3.8 2.0 0.7!4.59e+00 2.86e+03
+assign (resid 64 and name HN  ) (resid 66 and name HG1 ) 3.8 2.0 0.7!4.58e+00 2.92e+03
+assign (resid 72 and name HN  ) (resid 68 and name HA  ) 3.8 2.0 0.7!4.51e+00 3.20e+03
+assign (resid 58 and name HN  ) (resid 54 and name HA  ) 3.8 2.0 0.7!4.36e+00 3.94e+03
+assign (resid 64 and name HN  ) (resid 64 and name HE3 ) 3.8 2.0 0.7!4.34e+00 4.01e+03
+assign (resid 64 and name HE1 ) (resid 62 and name HG2 ) 3.8 2.0 0.7!4.29e+00 4.34e+03
+assign (resid 67 and name HN  ) (resid 66 and name HG2 ) 3.8 2.0 0.7!4.09e+00 5.75e+03
+assign (resid 64 and name HE1 ) (resid 62 and name HG1 ) 3.8 2.0 0.7!4.01e+00 6.48e+03
+assign (resid 54 and name HN  ) (resid 53 and name HA  ) 3.8 2.0 0.7!4.01e+00 6.48e+03
+assign (resid 71 and name HN  ) (resid 67 and name HA  ) 3.0 1.2 1.0!3.88e+00 7.84e+03
+assign (resid 60 and name HN  ) (resid 59 and name HA  ) 3.0 1.2 1.0!3.88e+00 7.93e+03
+assign (resid 65 and name HN  ) (resid 64 and name HA  ) 3.0 1.2 1.0!3.87e+00 7.96e+03
+assign (resid 76 and name HA  ) (resid 76 and name HB2 ) 3.0 1.2 1.0!3.84e+00 8.33e+03
+assign (resid 64 and name HE1 ) (resid 64 and name HN  ) 3.0 1.2 1.0!3.82e+00 8.72e+03
+assign (resid 69 and name HN  ) (resid 68 and name HA  ) 3.0 1.2 1.0!3.81e+00 8.78e+03
+assign (resid 50 and name HN  ) (resid 47 and name HA  ) 3.0 1.2 1.0!3.81e+00 8.82e+03
+assign (resid 73 and name HN  ) (resid 69 and name HA  ) 3.0 1.2 1.0!3.80e+00 8.94e+03
+assign (resid 48 and name HN  ) (resid 44 and name HA  ) 3.0 1.2 1.0!3.76e+00 9.46e+03
+assign (resid 51 and name HN  ) (resid 50 and name HA  ) 3.0 1.2 1.0!3.75e+00 9.73e+03
+assign (resid 72 and name HN  ) (resid 72 and name HG1 ) 3.0 1.2 1.0!3.74e+00 9.76e+03
+assign (resid 66 and name HE21) (resid 63 and name HA  ) 3.0 1.2 1.0!3.74e+00 9.76e+03
+assign (resid 64 and name HN  ) (resid 63 and name HA  ) 3.0 1.2 1.0!3.74e+00 9.85e+03
+assign (resid 55 and name HN  ) (resid 55 and name HG1 ) 3.0 1.2 1.0!3.74e+00 9.89e+03
+assign (resid 67 and name HN  ) (resid 63 and name HA  ) 3.0 1.2 1.0!3.73e+00 9.99e+03
+assign (resid 66 and name HN  ) (resid 65 and name HA  ) 3.0 1.2 1.0!3.72e+00 1.01e+04
+assign (resid 52 and name HN  ) (resid 51 and name HB1 ) 3.0 1.2 1.0!3.72e+00 1.01e+04
+assign (resid 43 and name HN  ) (resid 46 and name HB2 ) 3.0 1.2 1.0!3.69e+00 1.06e+04
+assign (resid 64 and name HE3 ) (resid 68 and name HB2 ) 3.0 1.2 1.0!3.69e+00 1.06e+04
+assign (resid 49 and name HN  ) (resid 46 and name HA  ) 3.0 1.2 1.0!3.69e+00 1.07e+04
+assign (resid 68 and name HD22) (resid 64 and name HE3 ) 3.0 1.2 1.0!3.67e+00 1.09e+04
+assign (resid 64 and name HE1 ) (resid 62 and name HB2 ) 3.0 1.2 1.0!3.67e+00 1.10e+04
+assign (resid 61 and name HN  ) (resid 59 and name HA  ) 3.0 1.2 1.0!3.66e+00 1.12e+04
+assign (resid 69 and name HN  ) (resid 65 and name HA  ) 3.0 1.2 1.0!3.65e+00 1.14e+04
+assign (resid 73 and name HN  ) (resid 70 and name HA  ) 3.0 1.2 1.0!3.65e+00 1.14e+04
+assign (resid 47 and name HN  ) (resid 46 and name HA  ) 3.0 1.2 1.0!3.63e+00 1.18e+04
+assign (resid 63 and name HA  ) (resid 66 and name HG2 ) 3.0 1.2 1.0!3.61e+00 1.21e+04
+assign (resid 68 and name HD22) (resid 68 and name HB1 ) 3.0 1.2 1.0!3.60e+00 1.24e+04
+assign (resid 75 and name HN  ) (resid 75 and name HA  ) 3.0 1.2 1.0!3.58e+00 1.27e+04
+assign (resid 43 and name HN  ) (resid 43 and name HB1 ) 3.0 1.2 1.0!3.55e+00 1.35e+04
+assign (resid 65 and name HN  ) (resid 63 and name HA  ) 3.0 1.2 1.0!3.55e+00 1.35e+04
+assign (resid 68 and name HN  ) (resid 64 and name HA  ) 3.0 1.2 1.0!3.54e+00 1.36e+04
+assign (resid 43 and name HN  ) (resid 43 and name HA  ) 3.0 1.2 1.0!3.53e+00 1.39e+04
+assign (resid 70 and name HN  ) (resid 69 and name HA  ) 3.0 1.2 1.0!3.52e+00 1.42e+04
+assign (resid 66 and name HE22) (resid 66 and name HB1 ) 3.0 1.2 1.0!3.51e+00 1.44e+04
+assign (resid 67 and name HN  ) (resid 64 and name HA  ) 3.0 1.2 1.0!3.50e+00 1.45e+04
+assign (resid 66 and name HE22) (resid 63 and name HA  ) 3.0 1.2 1.0!3.50e+00 1.46e+04
+assign (resid 44 and name HN  ) (resid 43 and name HB2 ) 3.0 1.2 1.0!3.50e+00 1.46e+04
+assign (resid 64 and name HN  ) (resid 62 and name HB1 ) 3.0 1.2 1.0!3.50e+00 1.46e+04
+assign (resid 63 and name HN  ) (resid 62 and name HB1 ) 3.0 1.2 1.0!3.48e+00 1.51e+04
+assign (resid 55 and name HB2 ) (resid 55 and name HG1 ) 3.0 1.2 1.0!3.48e+00 1.52e+04
+assign (resid 65 and name HN  ) (resid 62 and name HG2 ) 3.0 1.2 1.0!3.48e+00 1.52e+04
+assign (resid 62 and name HD2 ) (resid 62 and name HB2 ) 3.0 1.2 1.0!3.48e+00 1.52e+04
+assign (resid 52 and name HN  ) (resid 51 and name HA  ) 3.0 1.2 1.0!3.48e+00 1.52e+04
+assign (resid 71 and name HN  ) (resid 68 and name HA  ) 3.0 1.2 1.0!3.47e+00 1.53e+04
+assign (resid 68 and name HN  ) (resid 67 and name HA  ) 3.0 1.2 1.0!3.47e+00 1.54e+04
+assign (resid 69 and name HN  ) (resid 66 and name HA  ) 3.0 1.2 1.0!3.47e+00 1.55e+04
+assign (resid 64 and name HZ3 ) (resid 65 and name HA  ) 3.0 1.2 1.0!3.47e+00 1.55e+04
+assign (resid 56 and name HN  ) (resid 55 and name HA  ) 3.0 1.2 1.0!3.46e+00 1.56e+04
+assign (resid 64 and name HE1 ) (resid 62 and name HB1 ) 3.0 1.2 1.0!3.45e+00 1.58e+04
+assign (resid 73 and name HN  ) (resid 72 and name HA  ) 3.0 1.2 1.0!3.45e+00 1.58e+04
+assign (resid 73 and name HN  ) (resid 73 and name HG1 ) 3.0 1.2 1.0!3.45e+00 1.60e+04
+assign (resid 67 and name HN  ) (resid 66 and name HA  ) 3.0 1.2 1.0!3.45e+00 1.60e+04
+assign (resid 55 and name HA  ) (resid 58 and name HB1 ) 3.0 1.2 1.0!3.45e+00 1.61e+04
+assign (resid 42 and name HN  ) (resid 42 and name HG  ) 3.0 1.2 1.0!3.43e+00 1.64e+04
+assign (resid 54 and name HN  ) (resid 54 and name HA  ) 3.0 1.2 1.0!3.43e+00 1.65e+04
+assign (resid 76 and name HA  ) (resid 76 and name HB1 ) 3.0 1.2 1.0!3.43e+00 1.65e+04
+assign (resid 62 and name HD1 ) (resid 65 and name HB1 ) 3.0 1.2 1.0!3.42e+00 1.68e+04
+assign (resid 53 and name HN  ) (resid 52 and name HA1 ) 3.0 1.2 1.0!3.42e+00 1.69e+04
+assign (resid 72 and name HN  ) (resid 69 and name HA  ) 3.0 1.2 1.0!3.41e+00 1.72e+04
+assign (resid 60 and name HD21) (resid 60 and name HB2 ) 3.0 1.2 1.0!3.40e+00 1.73e+04
+assign (resid 74 and name HN  ) (resid 73 and name HA  ) 3.0 1.2 1.0!3.39e+00 1.76e+04
+assign (resid 76 and name HN  ) (resid 76 and name HB2 ) 3.0 1.2 1.0!3.39e+00 1.77e+04
+assign (resid 65 and name HN  ) (resid 65 and name HG1 ) 3.0 1.2 1.0!3.39e+00 1.78e+04
+assign (resid 68 and name HD22) (resid 68 and name HB2 ) 3.0 1.2 1.0!3.39e+00 1.78e+04
+assign (resid 64 and name HE3 ) (resid 64 and name HB1 ) 3.0 1.2 1.0!3.36e+00 1.87e+04
+assign (resid 65 and name HN  ) (resid 64 and name HB1 ) 3.0 1.2 1.0!3.35e+00 1.90e+04
+assign (resid 66 and name HN  ) (resid 65 and name HB1 ) 3.0 1.2 1.0!3.35e+00 1.90e+04
+assign (resid 73 and name HN  ) (resid 72 and name HB2 ) 3.0 1.2 1.0!3.35e+00 1.91e+04
+assign (resid 48 and name HN  ) (resid 45 and name HA  ) 3.0 1.2 1.0!3.34e+00 1.93e+04
+assign (resid 53 and name HN  ) (resid 53 and name HB1 ) 3.0 1.2 1.0!3.33e+00 1.96e+04
+assign (resid 55 and name HN  ) (resid 55 and name HG2 ) 3.0 1.2 1.0!3.32e+00 2.00e+04
+assign (resid 46 and name HN  ) (resid 45 and name HA  ) 3.0 1.2 1.0!3.32e+00 2.00e+04
+assign (resid 76 and name HN  ) (resid 75 and name HG  ) 3.0 1.2 1.0!3.31e+00 2.04e+04
+assign (resid 63 and name HA  ) (resid 66 and name HB1 ) 3.0 1.2 1.0!3.31e+00 2.05e+04
+assign (resid 47 and name HZ  ) (resid 55 and name HA  ) 3.0 1.2 1.0!3.30e+00 2.08e+04
+assign (resid 44 and name HA  ) (resid 47 and name HB1 ) 3.0 1.2 1.0!3.30e+00 2.08e+04
+assign (resid 73 and name HN  ) (resid 72 and name HB1 ) 3.0 1.2 1.0!3.30e+00 2.09e+04
+assign (resid 47 and name HN  ) (resid 44 and name HA  ) 3.0 1.2 1.0!3.30e+00 2.09e+04
+assign (resid 65 and name HN  ) (resid 62 and name HB2 ) 3.0 1.2 1.0!3.29e+00 2.12e+04
+assign (resid 65 and name HA  ) (resid 65 and name HG1 ) 3.0 1.2 1.0!3.29e+00 2.13e+04
+assign (resid 47 and name HN  ) (resid 46 and name HB2 ) 3.0 1.2 1.0!3.27e+00 2.21e+04
+assign (resid 61 and name HN  ) (resid 60 and name HB2 ) 3.0 1.2 1.0!3.26e+00 2.22e+04
+assign (resid 50 and name HN  ) (resid 49 and name HA  ) 3.0 1.2 1.0!3.26e+00 2.25e+04
+assign (resid 43 and name HN  ) (resid 42 and name HG  ) 3.0 1.2 1.0!3.25e+00 2.26e+04
+assign (resid 51 and name HN  ) (resid 51 and name HA  ) 3.0 1.2 1.0!3.25e+00 2.30e+04
+assign (resid 63 and name HN  ) (resid 64 and name HN  ) 3.0 1.2 1.0!3.24e+00 2.32e+04
+assign (resid 73 and name HN  ) (resid 73 and name HA  ) 3.0 1.2 1.0!3.23e+00 2.37e+04
+assign (resid 53 and name HN  ) (resid 51 and name HB1 ) 3.0 1.2 1.0!3.23e+00 2.37e+04
+assign (resid 67 and name HN  ) (resid 67 and name HG1 ) 3.0 1.2 1.0!3.22e+00 2.41e+04
+assign (resid 55 and name HD1 ) (resid 55 and name HG1 ) 3.0 1.2 1.0!3.22e+00 2.42e+04
+assign (resid 55 and name HG1 ) (resid 47 and name HZ  ) 3.0 1.2 1.0!3.22e+00 2.42e+04
+assign (resid 63 and name HN  ) (resid 62 and name HB2 ) 3.0 1.2 1.0!3.21e+00 2.45e+04
+assign (resid 68 and name HN  ) (resid 65 and name HA  ) 3.0 1.2 1.0!3.21e+00 2.47e+04
+assign (resid 76 and name HN  ) (resid 76 and name HB1 ) 3.0 1.2 1.0!3.20e+00 2.48e+04
+assign (resid 47 and name HN  ) (resid 42 and name HG  ) 3.0 1.2 1.0!3.18e+00 2.60e+04
+assign (resid 46 and name HN  ) (resid 46 and name HA  ) 3.0 1.2 1.0!3.18e+00 2.60e+04
+assign (resid 45 and name HN  ) (resid 44 and name HA  ) 3.0 1.2 1.0!3.18e+00 2.60e+04
+assign (resid 60 and name HD22) (resid 60 and name HB2 ) 3.0 1.2 1.0!3.18e+00 2.62e+04
+assign (resid 70 and name HN  ) (resid 70 and name HG2 ) 3.0 1.2 1.0!3.18e+00 2.62e+04
+assign (resid 67 and name HA  ) (resid 67 and name HG2 ) 3.0 1.2 1.0!3.17e+00 2.64e+04
+assign (resid 71 and name HN  ) (resid 70 and name HG1 ) 3.0 1.2 1.0!3.17e+00 2.65e+04
+assign (resid 67 and name HG1 ) (resid 67 and name HB2 ) 3.0 1.2 1.0!3.17e+00 2.65e+04
+assign (resid 68 and name HN  ) (resid 67 and name HB1 ) 3.0 1.2 1.0!3.17e+00 2.67e+04
+assign (resid 43 and name HN  ) (resid 42 and name HA  ) 3.0 1.2 1.0!3.16e+00 2.70e+04
+assign (resid 76 and name HN  ) (resid 76 and name HA  ) 3.0 1.2 1.0!3.15e+00 2.73e+04
+assign (resid 58 and name HN  ) (resid 55 and name HA  ) 3.0 1.2 1.0!3.15e+00 2.73e+04
+assign (resid 48 and name HN  ) (resid 47 and name HB1 ) 3.0 1.2 1.0!3.14e+00 2.79e+04
+assign (resid 68 and name HN  ) (resid 68 and name HA  ) 3.0 1.2 1.0!3.14e+00 2.80e+04
+assign (resid 58 and name HA  ) (resid 58 and name HB1 ) 3.0 1.2 1.0!3.14e+00 2.80e+04
+assign (resid 60 and name HN  ) (resid 60 and name HB1 ) 3.0 1.2 1.0!3.14e+00 2.83e+04
+assign (resid 55 and name HA  ) (resid 55 and name HG2 ) 3.0 1.2 1.0!3.13e+00 2.83e+04
+assign (resid 58 and name HN  ) (resid 53 and name HB2 ) 3.0 1.2 1.0!3.12e+00 2.93e+04
+assign (resid 56 and name HN  ) (resid 55 and name HB1 ) 3.0 1.2 1.0!3.11e+00 3.00e+04
+assign (resid 56 and name HN  ) (resid 55 and name HB2 ) 3.0 1.2 1.0!3.10e+00 3.00e+04
+assign (resid 72 and name HN  ) (resid 72 and name HG2 ) 3.0 1.2 1.0!3.10e+00 3.01e+04
+assign (resid 62 and name HD2 ) (resid 61 and name HB1 ) 3.0 1.2 1.0!3.08e+00 3.15e+04
+assign (resid 72 and name HA  ) (resid 72 and name HG2 ) 3.0 1.2 1.0!3.07e+00 3.22e+04
+assign (resid 66 and name HN  ) (resid 66 and name HA  ) 3.0 1.2 1.0!3.06e+00 3.31e+04
+assign (resid 47 and name HZ  ) (resid 58 and name HB2 ) 3.0 1.2 1.0!3.05e+00 3.34e+04
+assign (resid 47 and name HZ  ) (resid 58 and name HB1 ) 3.0 1.2 1.0!3.04e+00 3.38e+04
+assign (resid 62 and name HA  ) (resid 62 and name HB1 ) 3.0 1.2 1.0!3.04e+00 3.39e+04
+assign (resid 76 and name HN  ) (resid 75 and name HA  ) 3.0 1.2 1.0!3.04e+00 3.39e+04
+assign (resid 64 and name HN  ) (resid 64 and name HB2 ) 3.0 1.2 1.0!3.04e+00 3.40e+04
+assign (resid 43 and name HN  ) (resid 46 and name HB1 ) 3.0 1.2 1.0!3.03e+00 3.46e+04
+assign (resid 65 and name HA  ) (resid 65 and name HG2 ) 3.0 1.2 1.0!3.03e+00 3.50e+04
+assign (resid 46 and name HN  ) (resid 46 and name HB2 ) 3.0 1.2 1.0!3.03e+00 3.50e+04
+assign (resid 51 and name HZ  ) (resid 70 and name HA  ) 3.0 1.2 1.0!3.03e+00 3.50e+04
+assign (resid 44 and name HA  ) (resid 47 and name HB2 ) 3.0 1.2 1.0!3.02e+00 3.54e+04
+assign (resid 66 and name HE22) (resid 59 and name HA  ) 3.0 1.2 1.0!3.02e+00 3.55e+04
+assign (resid 69 and name HA  ) (resid 72 and name HB2 ) 3.0 1.2 1.0!3.02e+00 3.56e+04
+assign (resid 49 and name HN  ) (resid 49 and name HA  ) 3.0 1.2 1.0!3.01e+00 3.62e+04
+assign (resid 69 and name HA  ) (resid 69 and name HG  ) 3.0 1.2 1.0!3.01e+00 3.62e+04
+assign (resid 64 and name HA  ) (resid 67 and name HB2 ) 3.0 1.2 1.0!3.01e+00 3.63e+04
+assign (resid 51 and name HN  ) (resid 51 and name HB1 ) 3.0 1.2 1.0!3.01e+00 3.63e+04
+assign (resid 62 and name HD1 ) (resid 65 and name HB2 ) 3.0 1.2 1.0!3.00e+00 3.69e+04
+assign (resid 69 and name HA  ) (resid 65 and name HE1 ) 3.0 1.2 1.0!3.00e+00 3.69e+04
+assign (resid 66 and name HA  ) (resid 69 and name HB2 ) 3.0 1.2 1.0!2.99e+00 3.79e+04
+assign (resid 43 and name HN  ) (resid 43 and name HB2 ) 3.0 1.2 1.0!2.98e+00 3.80e+04
+assign (resid 66 and name HE21) (resid 59 and name HA  ) 3.0 1.2 1.0!2.98e+00 3.84e+04
+assign (resid 50 and name HN  ) (resid 50 and name HA  ) 3.0 1.2 1.0!2.98e+00 3.85e+04
+assign (resid 59 and name HN  ) (resid 58 and name HB2 ) 3.0 1.2 1.0!2.98e+00 3.86e+04
+assign (resid 61 and name HN  ) (resid 61 and name HA  ) 3.0 1.2 1.0!2.97e+00 3.89e+04
+assign (resid 72 and name HA  ) (resid 72 and name HB2 ) 3.0 1.2 1.0!2.97e+00 3.94e+04
+assign (resid 65 and name HA  ) (resid 68 and name HB1 ) 3.0 1.2 1.0!2.96e+00 3.99e+04
+assign (resid 72 and name HN  ) (resid 72 and name HB1 ) 3.0 1.2 1.0!2.96e+00 4.00e+04
+assign (resid 59 and name HN  ) (resid 59 and name HA  ) 3.0 1.2 1.0!2.96e+00 4.04e+04
+assign (resid 55 and name HN  ) (resid 55 and name HA  ) 3.0 1.2 1.0!2.95e+00 4.07e+04
+assign (resid 72 and name HN  ) (resid 71 and name HN  ) 3.0 1.2 1.0!2.95e+00 4.08e+04
+assign (resid 64 and name HE3 ) (resid 65 and name HA  ) 3.0 1.2 1.0!2.95e+00 4.10e+04
+assign (resid 45 and name HN  ) (resid 46 and name HN  ) 3.0 1.2 1.0!2.94e+00 4.14e+04
+assign (resid 55 and name HN  ) (resid 54 and name HA  ) 3.0 1.2 1.0!2.94e+00 4.16e+04
+assign (resid 68 and name HN  ) (resid 68 and name HB1 ) 3.0 1.2 1.0!2.94e+00 4.18e+04
+assign (resid 65 and name HN  ) (resid 65 and name HA  ) 3.0 1.2 1.0!2.94e+00 4.18e+04
+assign (resid 61 and name HN  ) (resid 61 and name HB1 ) 3.0 1.2 1.0!2.93e+00 4.28e+04
+assign (resid 66 and name HN  ) (resid 65 and name HB2 ) 3.0 1.2 1.0!2.93e+00 4.28e+04
+assign (resid 44 and name HN  ) (resid 45 and name HN  ) 3.0 1.2 1.0!2.93e+00 4.29e+04
+assign (resid 67 and name HN  ) (resid 67 and name HG2 ) 3.0 1.2 1.0!2.92e+00 4.30e+04
+assign (resid 66 and name HE21) (resid 66 and name HG1 ) 3.0 1.2 1.0!2.92e+00 4.32e+04
+assign (resid 51 and name HA  ) (resid 51 and name HB2 ) 3.0 1.2 1.0!2.92e+00 4.34e+04
+assign (resid 47 and name HA  ) (resid 47 and name HB2 ) 3.0 1.2 1.0!2.92e+00 4.37e+04
+assign (resid 55 and name HN  ) (resid 56 and name HN  ) 3.0 1.2 1.0!2.91e+00 4.40e+04
+assign (resid 67 and name HA  ) (resid 67 and name HG1 ) 3.0 1.2 1.0!2.91e+00 4.40e+04
+assign (resid 47 and name HN  ) (resid 47 and name HA  ) 3.0 1.2 1.0!2.91e+00 4.41e+04
+assign (resid 64 and name HN  ) (resid 64 and name HA  ) 3.0 1.2 1.0!2.91e+00 4.45e+04
+assign (resid 69 and name HN  ) (resid 68 and name HB1 ) 3.0 1.2 1.0!2.91e+00 4.46e+04
+assign (resid 67 and name HN  ) (resid 66 and name HB1 ) 3.0 1.2 1.0!2.90e+00 4.50e+04
+assign (resid 66 and name HE22) (resid 66 and name HG1 ) 3.0 1.2 1.0!2.90e+00 4.51e+04
+assign (resid 65 and name HN  ) (resid 62 and name HB1 ) 3.0 1.2 1.0!2.90e+00 4.56e+04
+assign (resid 69 and name HN  ) (resid 69 and name HB1 ) 3.0 1.2 1.0!2.89e+00 4.57e+04
+assign (resid 65 and name HA  ) (resid 65 and name HB2 ) 3.0 1.2 1.0!2.89e+00 4.61e+04
+assign (resid 47 and name HN  ) (resid 48 and name HN  ) 3.0 1.2 1.0!2.89e+00 4.62e+04
+assign (resid 68 and name HN  ) (resid 67 and name HB2 ) 3.0 1.2 1.0!2.89e+00 4.64e+04
+assign (resid 48 and name HN  ) (resid 49 and name HN  ) 3.0 1.2 1.0!2.88e+00 4.68e+04
+assign (resid 64 and name HE3 ) (resid 64 and name HB2 ) 3.0 1.2 1.0!2.88e+00 4.69e+04
+assign (resid 44 and name HN  ) (resid 43 and name HA  ) 3.0 1.2 1.0!2.88e+00 4.71e+04
+assign (resid 69 and name HN  ) (resid 69 and name HA  ) 3.0 1.2 1.0!2.88e+00 4.74e+04
+assign (resid 64 and name HN  ) (resid 65 and name HN  ) 3.0 1.2 1.0!2.88e+00 4.74e+04
+assign (resid 55 and name HN  ) (resid 55 and name HB2 ) 3.0 1.2 1.0!2.87e+00 4.80e+04
+assign (resid 45 and name HN  ) (resid 45 and name HA  ) 3.0 1.2 1.0!2.87e+00 4.82e+04
+assign (resid 51 and name HZ  ) (resid 55 and name HG2 ) 3.0 1.2 1.0!2.86e+00 4.91e+04
+assign (resid 66 and name HN  ) (resid 66 and name HB1 ) 3.0 1.2 1.0!2.85e+00 5.00e+04
+assign (resid 69 and name HN  ) (resid 70 and name HN  ) 3.0 1.2 1.0!2.85e+00 5.04e+04
+assign (resid 55 and name HA  ) (resid 55 and name HG1 ) 3.0 1.2 1.0!2.85e+00 5.04e+04
+assign (resid 72 and name HN  ) (resid 73 and name HN  ) 3.0 1.2 1.0!2.84e+00 5.07e+04
+assign (resid 66 and name HA  ) (resid 66 and name HG2 ) 3.0 1.2 1.0!2.83e+00 5.21e+04
+assign (resid 72 and name HA  ) (resid 72 and name HB1 ) 3.0 1.2 1.0!2.83e+00 5.23e+04
+assign (resid 51 and name HZ  ) (resid 70 and name HG2 ) 3.0 1.2 1.0!2.83e+00 5.27e+04
+assign (resid 63 and name HN  ) (resid 63 and name HA  ) 3.0 1.2 1.0!2.83e+00 5.28e+04
+assign (resid 59 and name HN  ) (resid 60 and name HN  ) 3.0 1.2 1.0!2.82e+00 5.32e+04
+assign (resid 55 and name HE  ) (resid 55 and name HG1 ) 3.0 1.2 1.0!2.82e+00 5.32e+04
+assign (resid 59 and name HN  ) (resid 58 and name HB1 ) 3.0 1.2 1.0!2.81e+00 5.41e+04
+assign (resid 47 and name HA  ) (resid 50 and name HB  ) 3.0 1.2 1.0!2.81e+00 5.43e+04
+assign (resid 50 and name HN  ) (resid 49 and name HN  ) 3.0 1.2 1.0!2.81e+00 5.46e+04
+assign (resid 58 and name HN  ) (resid 59 and name HN  ) 3.0 1.2 1.0!2.80e+00 5.52e+04
+assign (resid 66 and name HN  ) (resid 66 and name HG1 ) 3.0 1.2 1.0!2.80e+00 5.54e+04
+assign (resid 58 and name HN  ) (resid 57 and name HN  ) 3.0 1.2 1.0!2.80e+00 5.55e+04
+assign (resid 67 and name HN  ) (resid 68 and name HN  ) 3.0 1.2 1.0!2.80e+00 5.60e+04
+assign (resid 66 and name HA  ) (resid 66 and name HB2 ) 3.0 1.2 1.0!2.80e+00 5.63e+04
+assign (resid 48 and name HN  ) (resid 47 and name HA  ) 3.0 1.2 1.0!2.79e+00 5.73e+04
+assign (resid 56 and name HN  ) (resid 57 and name HN  ) 3.0 1.2 1.0!2.78e+00 5.80e+04
+assign (resid 47 and name HN  ) (resid 46 and name HN  ) 3.0 1.2 1.0!2.77e+00 5.95e+04
+assign (resid 68 and name HA  ) (resid 68 and name HB2 ) 2.4 0.6 0.6!2.77e+00 5.99e+04
+assign (resid 67 and name HN  ) (resid 66 and name HN  ) 2.4 0.6 0.6!2.76e+00 6.07e+04
+assign (resid 75 and name HN  ) (resid 76 and name HN  ) 2.4 0.6 0.6!2.76e+00 6.13e+04
+assign (resid 67 and name HA  ) (resid 67 and name HB2 ) 2.4 0.6 0.6!2.75e+00 6.17e+04
+assign (resid 64 and name HN  ) (resid 64 and name HD1 ) 2.4 0.6 0.6!2.75e+00 6.18e+04
+assign (resid 70 and name HN  ) (resid 69 and name HB2 ) 2.4 0.6 0.6!2.75e+00 6.18e+04
+assign (resid 71 and name HN  ) (resid 71 and name HA  ) 2.4 0.6 0.6!2.75e+00 6.20e+04
+assign (resid 44 and name HN  ) (resid 44 and name HA  ) 2.4 0.6 0.6!2.75e+00 6.24e+04
+assign (resid 52 and name HN  ) (resid 52 and name HA2 ) 2.4 0.6 0.6!2.75e+00 6.28e+04
+assign (resid 67 and name HN  ) (resid 67 and name HA  ) 2.4 0.6 0.6!2.74e+00 6.30e+04
+assign (resid 54 and name HN  ) (resid 53 and name HB2 ) 2.4 0.6 0.6!2.74e+00 6.34e+04
+assign (resid 51 and name HN  ) (resid 52 and name HN  ) 2.4 0.6 0.6!2.73e+00 6.43e+04
+assign (resid 47 and name HN  ) (resid 46 and name HB1 ) 2.4 0.6 0.6!2.73e+00 6.45e+04
+assign (resid 55 and name HN  ) (resid 55 and name HB1 ) 2.4 0.6 0.6!2.73e+00 6.49e+04
+assign (resid 65 and name HA  ) (resid 65 and name HB1 ) 2.4 0.6 0.6!2.73e+00 6.53e+04
+assign (resid 65 and name HN  ) (resid 65 and name HB1 ) 2.4 0.6 0.6!2.72e+00 6.58e+04
+assign (resid 48 and name HN  ) (resid 47 and name HB2 ) 2.4 0.6 0.6!2.72e+00 6.68e+04
+assign (resid 70 and name HN  ) (resid 70 and name HA  ) 2.4 0.6 0.6!2.71e+00 6.83e+04
+assign (resid 55 and name HA  ) (resid 55 and name HB2 ) 2.4 0.6 0.6!2.71e+00 6.85e+04
+assign (resid 65 and name HA  ) (resid 68 and name HB2 ) 2.4 0.6 0.6!2.71e+00 6.86e+04
+assign (resid 58 and name HA  ) (resid 58 and name HB2 ) 2.4 0.6 0.6!2.70e+00 6.90e+04
+assign (resid 46 and name HA  ) (resid 46 and name HB2 ) 2.4 0.6 0.6!2.70e+00 6.99e+04
+assign (resid 75 and name HA  ) (resid 75 and name HG  ) 2.4 0.6 0.6!2.69e+00 7.03e+04
+assign (resid 64 and name HN  ) (resid 64 and name HB1 ) 2.4 0.6 0.6!2.69e+00 7.03e+04
+assign (resid 55 and name HA  ) (resid 55 and name HB1 ) 2.4 0.6 0.6!2.69e+00 7.05e+04
+assign (resid 53 and name HN  ) (resid 53 and name HB2 ) 2.4 0.6 0.6!2.69e+00 7.14e+04
+assign (resid 69 and name HN  ) (resid 69 and name HG  ) 2.4 0.6 0.6!2.69e+00 7.17e+04
+assign (resid 66 and name HN  ) (resid 66 and name HB2 ) 2.4 0.6 0.6!2.68e+00 7.20e+04
+assign (resid 54 and name HN  ) (resid 53 and name HB1 ) 2.4 0.6 0.6!2.68e+00 7.30e+04
+assign (resid 64 and name HA  ) (resid 64 and name HB2 ) 2.4 0.6 0.6!2.67e+00 7.34e+04
+assign (resid 65 and name HN  ) (resid 65 and name HB2 ) 2.4 0.6 0.6!2.67e+00 7.39e+04
+assign (resid 72 and name HN  ) (resid 72 and name HB2 ) 2.4 0.6 0.6!2.67e+00 7.42e+04
+assign (resid 51 and name HA  ) (resid 51 and name HB1 ) 2.4 0.6 0.6!2.67e+00 7.43e+04
+assign (resid 56 and name HN  ) (resid 56 and name HA  ) 2.4 0.6 0.6!2.67e+00 7.46e+04
+assign (resid 51 and name HN  ) (resid 50 and name HN  ) 2.4 0.6 0.6!2.67e+00 7.47e+04
+assign (resid 55 and name HA  ) (resid 58 and name HB2 ) 2.4 0.6 0.6!2.67e+00 7.48e+04
+assign (resid 51 and name HN  ) (resid 50 and name HB  ) 2.4 0.6 0.6!2.65e+00 7.69e+04
+assign (resid 70 and name HN  ) (resid 70 and name HG1 ) 2.4 0.6 0.6!2.64e+00 7.87e+04
+assign (resid 47 and name HA  ) (resid 47 and name HB1 ) 2.4 0.6 0.6!2.64e+00 7.99e+04
+assign (resid 42 and name HN  ) (resid 41 and name HA  ) 2.4 0.6 0.6!2.63e+00 8.04e+04
+assign (resid 69 and name HN  ) (resid 68 and name HN  ) 2.4 0.6 0.6!2.63e+00 8.06e+04
+assign (resid 52 and name HN  ) (resid 53 and name HN  ) 2.4 0.6 0.6!2.63e+00 8.12e+04
+assign (resid 50 and name HA  ) (resid 50 and name HB  ) 2.4 0.6 0.6!2.63e+00 8.14e+04
+assign (resid 68 and name HA  ) (resid 68 and name HB1 ) 2.4 0.6 0.6!2.63e+00 8.16e+04
+assign (resid 61 and name HA  ) (resid 62 and name HD1 ) 2.4 0.6 0.6!2.62e+00 8.22e+04
+assign (resid 68 and name HN  ) (resid 68 and name HB2 ) 2.4 0.6 0.6!2.62e+00 8.25e+04
+assign (resid 66 and name HA  ) (resid 66 and name HG1 ) 2.4 0.6 0.6!2.62e+00 8.36e+04
+assign (resid 60 and name HN  ) (resid 60 and name HB2 ) 2.4 0.6 0.6!2.60e+00 8.63e+04
+assign (resid 61 and name HN  ) (resid 60 and name HN  ) 2.4 0.6 0.6!2.60e+00 8.72e+04
+assign (resid 62 and name HD2 ) (resid 62 and name HG1 ) 2.4 0.6 0.6!2.60e+00 8.72e+04
+assign (resid 66 and name HN  ) (resid 66 and name HG2 ) 2.4 0.6 0.6!2.59e+00 8.82e+04
+assign (resid 47 and name HN  ) (resid 47 and name HB2 ) 2.4 0.6 0.6!2.59e+00 8.88e+04
+assign (resid 66 and name HA  ) (resid 66 and name HB1 ) 2.4 0.6 0.6!2.59e+00 8.89e+04
+assign (resid 64 and name HA  ) (resid 64 and name HB1 ) 2.4 0.6 0.6!2.59e+00 8.93e+04
+assign (resid 61 and name HA  ) (resid 61 and name HB1 ) 2.4 0.6 0.6!2.59e+00 8.95e+04
+assign (resid 63 and name HA  ) (resid 66 and name HB2 ) 2.4 0.6 0.6!2.59e+00 8.96e+04
+assign (resid 69 and name HA  ) (resid 69 and name HB1 ) 2.4 0.6 0.6!2.58e+00 9.04e+04
+assign (resid 69 and name HA  ) (resid 69 and name HB2 ) 2.4 0.6 0.6!2.58e+00 9.15e+04
+assign (resid 64 and name HE3 ) (resid 64 and name HZ3 ) 2.4 0.6 0.6!2.57e+00 9.28e+04
+assign (resid 51 and name HN  ) (resid 51 and name HB2 ) 2.4 0.6 0.6!2.57e+00 9.30e+04
+assign (resid 67 and name HN  ) (resid 67 and name HB2 ) 2.4 0.6 0.6!2.56e+00 9.45e+04
+assign (resid 58 and name HN  ) (resid 58 and name HB1 ) 2.4 0.6 0.6!2.55e+00 9.85e+04
+assign (resid 61 and name HN  ) (resid 61 and name HG  ) 2.4 0.6 0.6!2.53e+00 1.02e+05
+assign (resid 70 and name HA  ) (resid 70 and name HG1 ) 2.4 0.6 0.6!2.53e+00 1.02e+05
+assign (resid 52 and name HN  ) (resid 52 and name HA1 ) 2.4 0.6 0.6!2.53e+00 1.03e+05
+assign (resid 52 and name HA2 ) (resid 52 and name HA1 ) 2.4 0.6 0.6!2.53e+00 1.04e+05
+assign (resid 62 and name HD1 ) (resid 61 and name HB1 ) 2.4 0.6 0.6!2.53e+00 1.04e+05
+assign (resid 64 and name HE1 ) (resid 64 and name HD1 ) 2.4 0.6 0.6!2.51e+00 1.08e+05
+assign (resid 66 and name HN  ) (resid 65 and name HN  ) 2.4 0.6 0.6!2.51e+00 1.08e+05
+assign (resid 47 and name HN  ) (resid 47 and name HB1 ) 2.4 0.6 0.6!2.51e+00 1.08e+05
+assign (resid 64 and name HZ2 ) (resid 64 and name HH2 ) 2.4 0.6 0.6!2.50e+00 1.10e+05
+assign (resid 61 and name HN  ) (resid 61 and name HB2 ) 2.4 0.6 0.6!2.50e+00 1.11e+05
+assign (resid 62 and name HA  ) (resid 62 and name HB2 ) 2.4 0.6 0.6!2.49e+00 1.12e+05
+assign (resid 43 and name HA  ) (resid 43 and name HB2 ) 2.4 0.6 0.6!2.49e+00 1.13e+05
+assign (resid 62 and name HD1 ) (resid 62 and name HG1 ) 2.4 0.6 0.6!2.49e+00 1.13e+05
+assign (resid 76 and name HB2 ) (resid 76 and name HB1 ) 2.4 0.6 0.6!2.47e+00 1.18e+05
+assign (resid 69 and name HN  ) (resid 69 and name HB2 ) 2.4 0.6 0.6!2.46e+00 1.21e+05
+assign (resid 73 and name HA  ) (resid 73 and name HG2 ) 2.4 0.6 0.6!2.45e+00 1.24e+05
+assign (resid 74 and name HN  ) (resid 74 and name HA1 ) 2.4 0.6 0.6!2.44e+00 1.29e+05
+assign (resid 70 and name HA  ) (resid 70 and name HG2 ) 2.4 0.6 0.6!2.42e+00 1.33e+05
+assign (resid 58 and name HN  ) (resid 58 and name HB2 ) 2.4 0.6 0.6!2.41e+00 1.37e+05
+assign (resid 67 and name HN  ) (resid 66 and name HB2 ) 2.4 0.6 0.6!2.39e+00 1.43e+05
+assign (resid 61 and name HA  ) (resid 62 and name HD2 ) 2.4 0.6 0.6!2.32e+00 1.72e+05
+assign (resid 43 and name HB1 ) (resid 43 and name HB2 ) 2.4 0.6 0.6!2.30e+00 1.79e+05
+assign (resid 50 and name HN  ) (resid 50 and name HB  ) 2.4 0.6 0.6!2.30e+00 1.81e+05
+assign (resid 68 and name HB2 ) (resid 68 and name HB1 ) 2.4 0.6 0.6!2.29e+00 1.85e+05
+assign (resid 65 and name HB2 ) (resid 65 and name HB1 ) 2.4 0.6 0.6!2.29e+00 1.86e+05
+assign (resid 55 and name HG2 ) (resid 55 and name HG1 ) 2.4 0.6 0.6!2.26e+00 2.03e+05
+assign (resid 58 and name HB1 ) (resid 58 and name HB2 ) 2.4 0.6 0.6!2.11e+00 3.04e+05
+assign (resid 62 and name HD2 ) (resid 62 and name HD1 ) 2.4 0.6 0.6!2.11e+00 3.09e+05
+assign (resid 74 and name HA2 ) (resid 74 and name HA1 ) 2.4 0.6 0.6!2.09e+00 3.24e+05
+assign (resid 69 and name HB2 ) (resid 69 and name HB1 ) 2.4 0.6 0.6!2.07e+00 3.41e+05
+assign (resid 62 and name HB2 ) (resid 62 and name HB1 ) 2.4 0.6 0.6!2.06e+00 3.47e+05
+assign (resid 62 and name HG2 ) (resid 62 and name HG1 ) 2.4 0.6 0.6!2.06e+00 3.53e+05
+assign (resid 66 and name HE22) (resid 66 and name HE21) 2.4 0.6 0.6!2.05e+00 3.58e+05
+assign (resid 67 and name HB2 ) (resid 67 and name HB1 ) 2.4 0.6 0.6!2.05e+00 3.63e+05
+assign (resid 51 and name HB1 ) (resid 51 and name HB2 ) 2.4 0.6 0.6!2.04e+00 3.69e+05
+assign (resid 47 and name HB2 ) (resid 47 and name HB1 ) 2.4 0.6 0.6!2.04e+00 3.69e+05
+assign (resid 64 and name HB2 ) (resid 64 and name HB1 ) 2.4 0.6 0.6!2.04e+00 3.74e+05
+assign (resid 60 and name HD22) (resid 60 and name HD21) 2.4 0.6 0.6!2.00e+00 4.15e+05
+assign (resid 68 and name HD22) (resid 68 and name HD21) 2.4 0.6 0.6!1.95e+00 4.93e+05
+assign (resid 67 and name HE22) (resid 67 and name HE21) 2.4 0.6 0.6!1.92e+00 5.33e+05
+assign (resid 53 and name HB2 ) (resid 53 and name HB1 ) 2.4 0.6 0.6!1.82e+00 7.31e+05
+assign (resid 60 and name HB1 ) (resid 60 and name HB2 ) 2.4 0.6 0.6!1.80e+00 7.87e+05
+class = ambig 
+assign (resid 55 and name HH# ) (resid 55 and name HB2 ) 4.0 2.2 1.0!nan
+assign (resid 55 and name HH# ) (resid 42 and name HG  ) 4.0 2.2 1.0!nan
+assign (resid 55 and name HH# ) (resid 41 and name HB# ) 4.0 2.2 1.0!nan
+assign (resid 55 and name HH# ) (resid 41 and name HG# ) 4.0 2.2 1.0!nan
+assign (resid 71 and name HA  ) (resid 71 and name HD# ) 3.8 2.0 1.2!5.90e+00
+assign (resid 42 and name HN  ) (resid 41 and name HG# ) 3.8 2.0 1.2!4.87e+00
+assign (resid 58 and name HN  ) (resid 61 and name HD1#) 3.8 2.0 1.2!4.27e+00
+assign (resid 49 and name HN  ) (resid 50 and name HG2#) 3.8 2.0 1.2!4.18e+00
+assign (resid 47 and name HN  ) (resid 42 and name HD# ) 3.8 2.0 1.2!4.01e+00
+assign (resid 76 and name HN  ) (resid 75 and name HD# ) 3.8 2.0 1.2!3.99e+00
+assign (resid 66 and name HN  ) (resid 61 and name HD# ) 3.8 2.0 1.2!3.99e+00
+assign (resid 67 and name HN  ) (resid 63 and name HD# ) 3.8 2.0 1.2!3.99e+00
+assign (resid 61 and name HA  ) (resid 61 and name HD1#) 3.8 2.0 1.2!3.92e+00
+assign (resid 51 and name HE# ) (resid 51 and name HA  ) 3.0 1.2 1.5!3.88e+00
+assign (resid 47 and name HD# ) (resid 47 and name HZ  ) 3.0 1.2 1.5!3.86e+00
+assign (resid 58 and name HN  ) (resid 47 and name HE# ) 3.0 1.2 1.5!3.85e+00
+assign (resid 47 and name HD# ) (resid 51 and name HD# ) 3.0 1.2 1.5!3.82e+00
+assign (resid 47 and name HD# ) (resid 54 and name HA  ) 3.0 1.2 1.5!3.81e+00
+assign (resid 57 and name HN  ) (resid 54 and name HG# ) 3.0 1.2 1.5!3.81e+00
+assign (resid 55 and name HH# ) (resid 47 and name HB1 ) 3.0 1.2 1.5!3.80e+00
+assign (resid 42 and name HN  ) (resid 42 and name HD# ) 3.0 1.2 1.5!3.79e+00
+assign (resid 43 and name HN  ) (resid 42 and name HD# ) 3.0 1.2 1.5!3.79e+00
+assign (resid 55 and name HH# ) (resid 55 and name HG1 ) 3.0 1.2 1.5!3.74e+00
+assign (resid 70 and name HN  ) (resid 58 and name HD# or resid 58 and name HD# or resid 58 and name HE#) 3.0 1.2 1.5!3.70e+00
+assign (resid 51 and name HE# ) (resid 74 and name HA1 ) 3.0 1.2 1.5!3.66e+00
+assign (resid 44 and name HN  ) (resid 55 and name HH# ) 3.0 1.2 1.5!3.65e+00
+assign (resid 43 and name HN  ) (resid 42 and name HB# ) 3.0 1.2 1.5!3.62e+00
+assign (resid 54 and name HN  ) (resid 53 and name HG# ) 3.0 1.2 1.5!3.62e+00
+assign (resid 69 and name HN  ) (resid 69 and name HD2#) 3.0 1.2 1.5!3.60e+00
+assign (resid 71 and name HN  ) (resid 71 and name HG# ) 3.0 1.2 1.5!3.56e+00
+assign (resid 55 and name HH# ) (resid 42 and name HB# ) 3.0 1.2 1.5!3.51e+00
+assign (resid 51 and name HZ  ) (resid 50 and name HG1#) 3.0 1.2 1.5!3.50e+00
+assign (resid 73 and name HE# ) (resid 50 and name HG1#) 3.0 1.2 1.5!3.49e+00
+assign (resid 51 and name HN  ) (resid 50 and name HG2#) 3.0 1.2 1.5!3.49e+00
+assign (resid 47 and name HN  ) (resid 42 and name HB# ) 3.0 1.2 1.5!3.47e+00
+assign (resid 63 and name HN  ) (resid 63 and name HD# ) 3.0 1.2 1.5!3.47e+00
+assign (resid 51 and name HA  ) (resid 50 and name HG1#) 3.0 1.2 1.5!3.44e+00
+assign (resid 51 and name HN  ) (resid 50 and name HG1#) 3.0 1.2 1.5!3.44e+00
+assign (resid 42 and name HN  ) (resid 55 and name HH# ) 3.0 1.2 1.5!3.44e+00
+assign (resid 69 and name HN  ) (resid 69 and name HD1#) 3.0 1.2 1.5!3.43e+00
+assign (resid 55 and name HH# ) (resid 55 and name HG2 ) 3.0 1.2 1.5!3.43e+00
+assign (resid 50 and name HN  ) (resid 50 and name HG1#) 3.0 1.2 1.5!3.43e+00
+assign (resid 42 and name HN  ) (resid 41 and name HB# ) 3.0 1.2 1.5!3.42e+00
+assign (resid 76 and name HD# ) (resid 76 and name HA  ) 3.0 1.2 1.5!3.42e+00
+assign (resid 55 and name HN  ) (resid 47 and name HD# ) 3.0 1.2 1.5!3.41e+00
+assign (resid 47 and name HD# ) (resid 51 and name HE# ) 3.0 1.2 1.5!3.41e+00
+assign (resid 45 and name HN  ) (resid 45 and name HG# ) 3.0 1.2 1.5!3.39e+00
+assign (resid 47 and name HD# ) (resid 42 and name HG  ) 3.0 1.2 1.5!3.38e+00
+assign (resid 51 and name HD# ) (resid 50 and name HG2#) 3.0 1.2 1.5!3.38e+00
+assign (resid 47 and name HN  ) (resid 47 and name HD# ) 3.0 1.2 1.5!3.38e+00
+assign (resid 61 and name HN  ) (resid 61 and name HD1#) 3.0 1.2 1.5!3.36e+00
+assign (resid 47 and name HD# ) (resid 51 and name HB2 ) 3.0 1.2 1.5!3.36e+00
+assign (resid 71 and name HN  ) (resid 71 and name HG# ) 3.0 1.2 1.5!3.36e+00
+assign (resid 73 and name HE# ) (resid 69 and name HD2#) 3.0 1.2 1.5!3.35e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 55 and name HA  ) 3.0 1.2 1.5!3.34e+00
+assign (resid 69 and name HA  ) (resid 69 and name HD1#) 3.0 1.2 1.5!3.34e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 51 and name HD# ) 3.0 1.2 1.5!3.34e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 55 and name HG2 ) 3.0 1.2 1.5!3.34e+00
+assign (resid 66 and name HA  ) (resid 61 and name HD1#) 3.0 1.2 1.5!3.31e+00
+assign (resid 47 and name HB1 ) (resid 42 and name HB# ) 3.0 1.2 1.5!3.30e+00
+assign (resid 67 and name HE22) (resid 63 and name HD# ) 3.0 1.2 1.5!3.30e+00
+assign (resid 55 and name HH# ) (resid 44 and name HA  ) 3.0 1.2 1.5!3.30e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 69 and name HD2#) 3.0 1.2 1.5!3.27e+00
+assign (resid 65 and name HA  ) (resid 65 and name HD# ) 3.0 1.2 1.5!3.26e+00
+assign (resid 73 and name HD# ) (resid 50 and name HG1#) 3.0 1.2 1.5!3.24e+00
+assign (resid 59 and name HN  ) (resid 58 and name HD# or resid 58 and name HD# or resid 58 and name HE#) 3.0 1.2 1.5!3.22e+00
+assign (resid 75 and name HN  ) (resid 75 and name HD# ) 3.0 1.2 1.5!3.21e+00
+assign (resid 61 and name HN  ) (resid 61 and name HD2#) 3.0 1.2 1.5!3.21e+00
+assign (resid 53 and name HN  ) (resid 53 and name HG# ) 3.0 1.2 1.5!3.21e+00
+assign (resid 51 and name HD# ) (resid 69 and name HD2#) 3.0 1.2 1.5!3.20e+00
+assign (resid 76 and name HD# ) (resid 76 and name HB1 ) 3.0 1.2 1.5!3.19e+00
+assign (resid 58 and name HN  ) (resid 58 and name HD# or resid 58 and name HD# or resid 58 and name HE#) 3.0 1.2 1.5!3.19e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 59 and name HA  ) 3.0 1.2 1.5!3.18e+00
+assign (resid 51 and name HD# ) (resid 50 and name HG1#) 3.0 1.2 1.5!3.16e+00
+assign (resid 51 and name HD# ) (resid 69 and name HD1#) 3.0 1.2 1.5!3.15e+00
+assign (resid 47 and name HD# ) (resid 55 and name HG1 ) 3.0 1.2 1.5!3.15e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 47 and name HZ  ) 3.0 1.2 1.5!3.14e+00
+assign (resid 51 and name HE# ) (resid 69 and name HB2 ) 3.0 1.2 1.5!3.13e+00
+assign (resid 76 and name HD# ) (resid 76 and name HB2 ) 3.0 1.2 1.5!3.13e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 47 and name HE# ) 3.0 1.2 1.5!3.13e+00
+assign (resid 51 and name HD# ) (resid 69 and name HB2 ) 3.0 1.2 1.5!3.12e+00
+assign (resid 47 and name HD# ) (resid 55 and name HH# ) 3.0 1.2 1.5!3.10e+00
+assign (resid 51 and name HE# ) (resid 50 and name HG1#) 3.0 1.2 1.5!3.09e+00
+assign (resid 45 and name HA  ) (resid 45 and name HG# ) 3.0 1.2 1.5!3.09e+00
+assign (resid 51 and name HD# ) (resid 42 and name HD# ) 3.0 1.2 1.5!3.06e+00
+assign (resid 70 and name HN  ) (resid 71 and name HD# ) 3.0 1.2 1.5!3.03e+00
+assign (resid 47 and name HD# ) (resid 47 and name HA  ) 3.0 1.2 1.5!3.00e+00
+assign (resid 66 and name HA  ) (resid 63 and name HD# ) 3.0 1.2 1.5!3.00e+00
+assign (resid 47 and name HB1 ) (resid 42 and name HD# ) 3.0 1.2 1.5!2.99e+00
+assign (resid 47 and name HE# ) (resid 53 and name HB2 ) 3.0 1.2 1.5!2.97e+00
+assign (resid 62 and name HD2 ) (resid 61 and name HD2#) 3.0 1.2 1.5!2.95e+00
+assign (resid 67 and name HA  ) (resid 70 and name HD# ) 3.0 1.2 1.5!2.93e+00
+assign (resid 51 and name HN  ) (resid 51 and name HD# ) 3.0 1.2 1.5!2.92e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 51 and name HE# ) 3.0 1.2 1.5!2.91e+00
+assign (resid 47 and name HE# ) (resid 58 and name HB1 ) 3.0 1.2 1.5!2.91e+00
+assign (resid 51 and name HD# ) (resid 74 and name HA1 ) 3.0 1.2 1.5!2.91e+00
+assign (resid 62 and name HD1 ) (resid 65 and name HD# ) 3.0 1.2 1.5!2.90e+00
+assign (resid 51 and name HD# ) (resid 69 and name HB1 ) 3.0 1.2 1.5!2.89e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 73 and name HG1 ) 3.0 1.2 1.5!2.88e+00
+assign (resid 46 and name HN  ) (resid 45 and name HB# ) 3.0 1.2 1.5!2.87e+00
+assign (resid 47 and name HE# ) (resid 53 and name HG# ) 3.0 1.2 1.5!2.87e+00
+assign (resid 51 and name HE# ) (resid 70 and name HA  ) 3.0 1.2 1.5!2.86e+00
+assign (resid 66 and name HE22) (resid 70 and name HD# ) 3.0 1.2 1.5!2.84e+00
+assign (resid 61 and name HB2 ) (resid 61 and name HD1#) 3.0 1.2 1.5!2.84e+00
+assign (resid 62 and name HD1 ) (resid 61 and name HD2#) 3.0 1.2 1.5!2.83e+00
+assign (resid 47 and name HD# ) (resid 42 and name HD# ) 3.0 1.2 1.5!2.78e+00
+assign (resid 51 and name HE# ) (resid 69 and name HB1 ) 3.0 1.2 1.5!2.78e+00
+assign (resid 73 and name HE# ) (resid 73 and name HG1 ) 3.0 1.2 1.5!2.78e+00
+assign (resid 68 and name HA  ) (resid 70 and name HB# ) 3.0 1.2 1.5!2.78e+00
+assign (resid 49 and name HN  ) (resid 48 and name HB# ) 3.0 1.2 1.5!2.77e+00
+assign (resid 66 and name HE21) (resid 70 and name HD# ) 3.0 1.2 1.5!2.77e+00
+assign (resid 47 and name HD# ) (resid 42 and name HB# ) 3.0 1.2 1.5!2.77e+00
+assign (resid 47 and name HE# ) (resid 55 and name HA  ) 3.0 1.2 1.5!2.77e+00
+assign (resid 73 and name HG1 ) (resid 50 and name HG1#) 2.4 0.6 1.1!2.76e+00
+assign (resid 66 and name HB2 ) (resid 63 and name HD# ) 2.4 0.6 1.1!2.76e+00
+assign (resid 46 and name HB1 ) (resid 42 and name HD# ) 2.4 0.6 1.1!2.76e+00
+assign (resid 51 and name HD# ) (resid 50 and name HB  ) 2.4 0.6 1.1!2.76e+00
+assign (resid 57 and name HN  ) (resid 56 and name HB# ) 2.4 0.6 1.1!2.76e+00
+assign (resid 55 and name HH# ) (resid 55 and name HD1 ) 2.4 0.6 1.1!2.75e+00
+assign (resid 64 and name HN  ) (resid 63 and name HB# ) 2.4 0.6 1.1!2.75e+00
+assign (resid 71 and name HB# ) (resid 71 and name HG2 ) 2.4 0.6 1.1!2.74e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 69 and name HD1#) 2.4 0.6 1.1!2.73e+00
+assign (resid 51 and name HD# ) (resid 51 and name HA  ) 2.4 0.6 1.1!2.73e+00
+assign (resid 69 and name HD1#) (resid 61 and name HD1#) 2.4 0.6 1.1!2.73e+00
+assign (resid 53 and name HB2 ) (resid 57 and name HB# ) 2.4 0.6 1.1!2.72e+00
+assign (resid 61 and name HB1 ) (resid 61 and name HD1#) 2.4 0.6 1.1!2.72e+00
+assign (resid 54 and name HN  ) (resid 57 and name HB# ) 2.4 0.6 1.1!2.72e+00
+assign (resid 51 and name HE# ) (resid 55 and name HG2 ) 2.4 0.6 1.1!2.72e+00
+assign (resid 58 and name HA  ) (resid 61 and name HD1#) 2.4 0.6 1.1!2.71e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 61 and name HD# ) 2.4 0.6 1.1!2.71e+00
+assign (resid 73 and name HE# ) (resid 73 and name HD# ) 2.4 0.6 1.1!2.70e+00
+assign (resid 65 and name HD# ) (resid 65 and name HB2 ) 2.4 0.6 1.1!2.69e+00
+assign (resid 69 and name HB1 ) (resid 69 and name HD2#) 2.4 0.6 1.1!2.69e+00
+assign (resid 45 and name HN  ) (resid 44 and name HB# ) 2.4 0.6 1.1!2.69e+00
+assign (resid 47 and name HE# ) (resid 58 and name HB2 ) 2.4 0.6 1.1!2.68e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 69 and name HB2 ) 2.4 0.6 1.1!2.67e+00
+assign (resid 54 and name HA  ) (resid 54 and name HG# ) 2.4 0.6 1.1!2.67e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 70 and name HG1 ) 2.4 0.6 1.1!2.67e+00
+assign (resid 51 and name HE# ) (resid 42 and name HD# ) 2.4 0.6 1.1!2.67e+00
+assign (resid 55 and name HH# ) (resid 55 and name HD2 ) 2.4 0.6 1.1!2.66e+00
+assign (resid 72 and name HN  ) (resid 70 and name HB# ) 2.4 0.6 1.1!2.66e+00
+assign (resid 58 and name HN  ) (resid 57 and name HB# ) 2.4 0.6 1.1!2.65e+00
+assign (resid 46 and name HA  ) (resid 49 and name HB# ) 2.4 0.6 1.1!2.64e+00
+assign (resid 56 and name HN  ) (resid 56 and name HB# ) 2.4 0.6 1.1!2.62e+00
+assign (resid 47 and name HA  ) (resid 42 and name HD# ) 2.4 0.6 1.1!2.62e+00
+assign (resid 50 and name HN  ) (resid 50 and name HG2#) 2.4 0.6 1.1!2.62e+00
+assign (resid 53 and name HB1 ) (resid 57 and name HB# ) 2.4 0.6 1.1!2.61e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 69 and name HB1 ) 2.4 0.6 1.1!2.61e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 69 and name HD1#) 2.4 0.6 1.1!2.61e+00
+assign (resid 55 and name HE# ) (resid 55 and name HD1 ) 2.4 0.6 1.1!2.61e+00
+assign (resid 75 and name HN  ) (resid 75 and name HG# ) 2.4 0.6 1.1!2.60e+00
+assign (resid 51 and name HD# ) (resid 51 and name HB1 ) 2.4 0.6 1.1!2.60e+00
+assign (resid 75 and name HA  ) (resid 75 and name HD# ) 2.4 0.6 1.1!2.59e+00
+assign (resid 69 and name HG# ) (resid 69 and name HD2#) 2.4 0.6 1.1!2.59e+00
+assign (resid 50 and name HA  ) (resid 50 and name HG1#) 2.4 0.6 1.1!2.59e+00
+assign (resid 41 and name HA  ) (resid 41 and name HB# ) 2.4 0.6 1.1!2.58e+00
+assign (resid 55 and name HE  ) (resid 55 and name HH# ) 2.4 0.6 1.1!2.57e+00
+assign (resid 51 and name HD# ) (resid 51 and name HB2 ) 2.4 0.6 1.1!2.56e+00
+assign (resid 69 and name HB2 ) (resid 69 and name HD1#) 2.4 0.6 1.1!2.56e+00
+assign (resid 54 and name HN  ) (resid 54 and name HG# ) 2.4 0.6 1.1!2.55e+00
+assign (resid 63 and name HA  ) (resid 63 and name HD# ) 2.4 0.6 1.1!2.55e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 66 and name HA  ) 2.4 0.6 1.1!2.55e+00
+assign (resid 53 and name HG# ) (resid 53 and name HB1 ) 2.4 0.6 1.1!2.54e+00
+assign (resid 44 and name HA  ) (resid 44 and name HB# ) 2.4 0.6 1.1!2.53e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 58 and name HB2 ) 2.4 0.6 1.1!2.52e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 55 and name HD2 ) 2.4 0.6 1.1!2.52e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 70 and name HG1 ) 2.4 0.6 1.1!2.50e+00
+assign (resid 58 and name HD# or resid 58 and name HE# or resid 58 and name HZ#) (resid 58 and name HB1 ) 2.4 0.6 1.1!2.49e+00
+assign (resid 42 and name HN  ) (resid 42 and name HB# ) 2.4 0.6 1.1!2.49e+00
+assign (resid 44 and name HN  ) (resid 44 and name HB# ) 2.4 0.6 1.1!2.48e+00
+assign (resid 69 and name HA  ) (resid 69 and name HD2#) 2.4 0.6 1.1!2.47e+00
+assign (resid 61 and name HA  ) (resid 61 and name HD2#) 2.4 0.6 1.1!2.46e+00
+assign (resid 45 and name HN  ) (resid 45 and name HB# ) 2.4 0.6 1.1!2.46e+00
+assign (resid 47 and name HD# ) (resid 47 and name HB2 ) 2.4 0.6 1.1!2.46e+00
+assign (resid 63 and name HA  ) (resid 63 and name HB# ) 2.4 0.6 1.1!2.43e+00
+assign (resid 57 and name HN  ) (resid 57 and name HB# ) 2.4 0.6 1.1!2.43e+00
+assign (resid 61 and name HD2#) (resid 61 and name HD1#) 2.4 0.6 1.1!2.42e+00
+assign (resid 50 and name HB  ) (resid 50 and name HG1#) 2.4 0.6 1.1!2.41e+00
+assign (resid 50 and name HA  ) (resid 50 and name HG2#) 2.4 0.6 1.1!2.41e+00
+assign (resid 63 and name HN  ) (resid 63 and name HB# ) 2.4 0.6 1.1!2.41e+00
+assign (resid 51 and name HZ  ) (resid 51 and name HE# ) 2.4 0.6 1.1!2.41e+00
+assign (resid 61 and name HG# ) (resid 61 and name HD1#) 2.4 0.6 1.1!2.39e+00
+assign (resid 49 and name HN  ) (resid 49 and name HB# ) 2.4 0.6 1.1!2.39e+00
+assign (resid 47 and name HE# ) (resid 47 and name HZ  ) 2.4 0.6 1.1!2.36e+00
+assign (resid 47 and name HD# ) (resid 47 and name HB1 ) 2.4 0.6 1.1!2.35e+00
+assign (resid 61 and name HG# ) (resid 61 and name HD2#) 2.4 0.6 1.1!2.35e+00
+assign (resid 48 and name HN  ) (resid 48 and name HB# ) 2.4 0.6 1.1!2.33e+00
+assign (resid 56 and name HA  ) (resid 56 and name HB# ) 2.4 0.6 1.1!2.33e+00
+assign (resid 71 and name HN  ) (resid 71 and name HB# ) 2.4 0.6 1.1!2.28e+00
+assign (resid 47 and name HD# ) (resid 47 and name HE# ) 2.4 0.6 1.1!2.27e+00
+assign (resid 51 and name HE# ) (resid 51 and name HD# ) 2.4 0.6 1.1!2.25e+00
+assign (resid 50 and name HG2#) (resid 50 and name HG1#) 2.4 0.6 1.1!2.21e+00
+assign (resid 53 and name HG# ) (resid 53 and name HB2 ) 2.4 0.6 1.1!2.03e+00
+assign (resid 50 and name HB  ) (resid 50 and name HG2#) 2.4 0.6 1.1!2.01e+00
+assign (resid 71 and name HB# ) (resid 71 and name HG1 ) 2.4 0.6 1.1!1.97e+00
+assign (resid 42 and name HB# ) (resid 42 and name HD# ) 2.4 0.6 1.1!1.94e+00
+assign (resid 75 and name HG  ) (resid 75 and name HB# ) 2.4 0.6 1.1!1.80e+00
+!
+!hbond constraints
+!
+class=unamb
+assign (resid 47 and name N ) (resid 44 and name O ) 3.3 .8 .2
+assign (resid 47 and name HN ) (resid 44 and name O ) 2.3 .8 .2
+assign (resid 48 and name N ) (resid 45 and name O ) 3.3 .8 .2
+assign (resid 48 and name HN ) (resid 45 and name O ) 2.3 .8 .2
+assign (resid 58 and name N ) (resid 55 and name O ) 3.3 .8 .2
+assign (resid 58 and name HN ) (resid 55 and name O ) 2.3 .8 .2
+assign (resid 67 and name N ) (resid 63 and name O ) 3.3 .8 .2
+assign (resid 67 and name HN ) (resid 63 and name O ) 2.3 .8 .2
+assign (resid 68 and name N ) (resid 64 and name O ) 3.3 .8 .2
+assign (resid 68 and name HN ) (resid 64 and name O ) 2.3 .8 .2
+assign (resid 69 and name N ) (resid 65 and name O ) 3.3 .8 .2
+assign (resid 69 and name HN ) (resid 65 and name O ) 2.3 .8 .2
+assign (resid 71 and name N ) (resid 67 and name O ) 3.3 .8 .2
+assign (resid 71 and name HN ) (resid 67 and name O ) 2.3 .8 .2
+assign (resid 72 and name N ) (resid 68 and name O ) 3.3 .8 .2
+assign (resid 72 and name HN ) (resid 68 and name O ) 2.3 .8 .2
+assign (resid 73 and name N ) (resid 69 and name O ) 3.3 .8 .2
+assign (resid 73 and name HN ) (resid 69 and name O ) 2.3 .8 .2
+!
+!Dihedral constraints
+!
+set message=on echo=on end
+cons dihedral reset
+!!
+!! Phi restraints: minimum deviation = 30 degrees
+  !!    42   6.1 Hz
+ assign (resid   41 and name c )   (resid   42 and name n ) 
+        (resid   42 and name ca)   (resid   42 and name c )  1.0 -75.0 30.0 2
+  !!    43   5.2 Hz 
+ assign (resid   42 and name c )   (resid   43 and name n ) 
+        (resid   43 and name ca)   (resid   43 and name c )  1.0 -65.0 30.0 2
+  !!    44   < 3 Hz
+ assign (resid   43 and name c )   (resid   44 and name n ) 
+        (resid   44 and name ca)   (resid   44 and name c )  1.0 -60.0 30.0 2
+  !!    45   4.7 Hz  
+ assign (resid   44 and name c )   (resid   45 and name n ) 
+        (resid   45 and name ca)   (resid   45 and name c )  1.0 -65  30.0 2
+  !!    46   6.3 Hz 
+ assign (resid   45 and name c )   (resid   46 and name n ) 
+        (resid   46 and name ca)   (resid   46 and name c )  1.0 -80.0 30.0 2
+  !!    47  < 3Hz
+ assign (resid   46 and name c )   (resid   47 and name n ) 
+        (resid   47 and name ca)   (resid   47 and name c )  1.0 -60.0 30.0 2
+  !!    48   4.1 Hz
+ assign (resid   47 and name c )   (resid   48 and name n ) 
+        (resid   48 and name ca)   (resid   48 and name c )  1.0 -60.0 30.0 2
+  !!    49   4.8 Hz
+ assign (resid   48 and name c )   (resid   49 and name n ) 
+        (resid   49 and name ca)   (resid   49 and name c )  1.0 -65.0 30.0 2
+  !!    50   7.3 Hz
+ assign (resid   49 and name c )   (resid   50 and name n ) 
+        (resid   50 and name ca)   (resid   50 and name c )  1.0 -110.0 50.0 2
+  !!    51   9.0 Hz
+ assign (resid   50 and name c )   (resid   51 and name n ) 
+        (resid   51 and name ca)   (resid   51 and name c )  1.0 -120.0 40.0 2
+  !!    52   6.2 and 6.4 Hz (gly) 
+  !!    53   3.3 Hz
+ assign (resid   52 and name c )   (resid   53 and name n ) 
+        (resid   53 and name ca)   (resid   53 and name c )  1.0 -60.0 30.0 2
+  !!    54   6.9 Hz
+ assign (resid   53 and name c )   (resid   54 and name n ) 
+        (resid   54 and name ca)   (resid   54 and name c )  1.0 -110.0 50.0 2
+  !!    55   < 3 Hz
+ assign (resid   54 and name c )   (resid   55 and name n ) 
+        (resid   55 and name ca)   (resid   55 and name c )  1.0 -60.0 30.0 2
+  !!    56   4.5 Hz
+ assign (resid   55 and name c )   (resid   56 and name n ) 
+        (resid   56 and name ca)   (resid   56 and name c )  1.0 -65.0 30.0 2
+  !!    57   5.7 Hz
+ assign (resid   56 and name c )   (resid   57 and name n ) 
+        (resid   57 and name ca)   (resid   57 and name c )  1.0 -70.0 30.0 2
+  !!    58   3.3 Hz 
+ assign (resid   57 and name c )   (resid   58 and name n ) 
+        (resid   58 and name ca)   (resid   58 and name c )  1.0 -60.0 30.0 2
+  !!    59   3.8 Hz
+ assign (resid   58 and name c )   (resid   59 and name n ) 
+        (resid   59 and name ca)   (resid   59 and name c )  1.0 -60.0 30.0 2
+  !!    60   9.1 Hz
+ assign (resid   59 and name c )   (resid   60 and name n ) 
+        (resid   60 and name ca)   (resid   60 and name c )  1.0 -120.0 40.0 2
+  !!    61  6.9 Hz 
+ assign (resid   60 and name c )   (resid   61 and name n ) 
+        (resid   61 and name ca)   (resid   61 and name c )  1.0 -110.0 50.0 2
+  !!    62 proline
+  !!    63  < 3 Hz
+ assign (resid   62 and name c )   (resid   63 and name n ) 
+        (resid   63 and name ca)   (resid   63 and name c )  1.0 -60.0 30.0 2
+  !!    64  < 3 Hz
+ assign (resid   63 and name c )   (resid   64 and name n ) 
+        (resid   64 and name ca)   (resid   64 and name c )  1.0 -60.0 30.0 2
+  !!    65  8.0 Hz
+ assign (resid   64 and name c )   (resid   65 and name n ) 
+        (resid   65 and name ca)   (resid   65 and name c )  1.0 -110.0 50.0 2
+  !!    66  2.H Hz 
+ assign (resid   65 and name c )   (resid   66 and name n ) 
+        (resid   66 and name ca)   (resid   66 and name c )  1.0 -60.0 30.0 2
+  !!    67  4.0 Hz
+ assign (resid   66 and name c )   (resid   67 and name n ) 
+        (resid   67 and name ca)   (resid   67 and name c )  1.0 -60.0 30.0 2
+  !!    68  4.3 Hz 
+ assign (resid   67 and name c )   (resid   68 and name n ) 
+        (resid   68 and name ca)   (resid   68 and name c )  1.0 -60.0 30.0 2
+  !!    69  4.6 Hz 
+ assign (resid   68 and name c )   (resid   69 and name n ) 
+        (resid   69 and name ca)   (resid   69 and name c )  1.0 -65.0 30.0 2
+  !!    70  4.2 Hz
+ assign (resid   69 and name c )   (resid   70 and name n ) 
+        (resid   70 and name ca)   (resid   70 and name c )  1.0 -60.0 30.0 2
+  !!    71  4.8 Hz
+ assign (resid   70 and name c )   (resid   71 and name n ) 
+        (resid   71 and name ca)   (resid   71 and name c )  1.0 -65.0 30.0 2
+  !!    72  4.5 Hz
+ assign (resid   71 and name c )   (resid   72 and name n ) 
+        (resid   72 and name ca)   (resid   72 and name c )  1.0 -65.0 35.0 2
+  !!    73  8.9 Hz 
+ assign (resid   72 and name c )   (resid   73 and name n ) 
+        (resid   73 and name ca)   (resid   73 and name c )  1.0 -120.0 40.0 2
+  !!    74  6.5, 6.5 Hz (gly)
+  !!    75  9.7 Hz
+ assign (resid   74 and name c )   (resid   75 and name n ) 
+        (resid   75 and name ca)   (resid   75 and name c )  1.0 -120.0 40.0 2
+  !!    76  8.5 Hz 
+ assign (resid   75 and name c )   (resid   76 and name n ) 
+        (resid   76 and name ca)   (resid   76 and name c )  1.0 -120.0 45.0 2
+!!chi
+  !!43
+!assign (resid 43 and name n)    (resid 43 and name ca)
+!       (resid 43 and name cb)   (resid 43 and name cg) 1.0 60.0 -30.0 2
+  !!46
+assign (resid 46 and name n)    (resid 46 and name ca)
+       (resid 46 and name cb)   (resid 46 and name cg) 1.0 -60.0 30.0 2
+  !!47
+assign (resid 47 and name n)    (resid 47 and name ca)
+       (resid 47 and name cb)   (resid 47 and name cg) 1.0 180.0 30.0 2
+  !!51
+assign (resid 51 and name n)    (resid 51 and name ca)
+       (resid 51 and name cb)   (resid 51 and name cg) 1.0 -60.0 30.0 2
+  !!53
+assign (resid 53 and name n)    (resid 53 and name ca)
+       (resid 53 and name cb)   (resid 53 and name cg) 1.0 -60.0 30.0 2
+  !!58
+assign (resid 58 and name n)    (resid 58 and name ca)
+       (resid 58 and name cb)   (resid 58 and name cg) 1.0 180.0 30.0 2
+  !!60
+assign (resid 60 and name n)    (resid 60 and name ca)
+       (resid 60 and name cb)   (resid 60 and name cg) 1.0 -60.0 30.0 2
+  !!64
+assign (resid 64 and name n)    (resid 64 and name ca)
+       (resid 64 and name cb)   (resid 64 and name cg) 1.0 60.0 30.0 2
+  !!66
+assign (resid 66 and name n)    (resid 66 and name ca)
+       (resid 66 and name cb)   (resid 66 and name cg) 1.0 -60.0 30.0 2
+  !!67
+assign (resid 67 and name n)    (resid 67 and name ca)
+       (resid 67 and name cb)   (resid 67 and name cg) 1.0 -60.0 30.0 2
+  !!69
+!!assign (resid 69 and name n)    (resid 69 and name ca)
+!!       (resid 69 and name cb)   (resid 69 and name cg) 1.0 -60.0 30.0 2
+end
+end
+
+set message=on echo=on end
+
+
+  Entry H atom name         Submitted Coord H atom name
+    1   1H    MET  41          3H        MET  41   0.835 -10.784  -2.856
+    2   2H    MET  41          2H        MET  41   1.166 -10.381  -4.475
+    3   3H    MET  41          1H        MET  41   2.149  -9.775  -3.227
+    4    HA   MET  41           HA       MET  41   0.900  -7.946  -3.376
+    5   1HB   MET  41          2HB       MET  41  -0.814  -9.790  -4.956
+    6   2HB   MET  41          1HB       MET  41  -1.623  -8.395  -4.242
+    7   1HG   MET  41          2HG       MET  41  -0.664  -6.978  -5.716
+    8   2HG   MET  41          1HG       MET  41   0.934  -7.651  -5.412
+    9   1HE   MET  41          2HE       MET  41  -0.619  -6.471  -7.850
+   10   2HE   MET  41          1HE       MET  41  -0.742  -7.544  -9.243
+   11   3HE   MET  41          3HE       MET  41  -2.038  -7.498  -8.043
+   12    H    LEU  42           H        LEU  42  -0.060  -7.024  -1.632
+   13    HA   LEU  42           HA       LEU  42  -0.852  -8.611   0.598
+   14   1HB   LEU  42          2HB       LEU  42  -0.605  -5.774  -0.049
+   15   2HB   LEU  42          1HB       LEU  42  -1.957  -6.102   1.037
+   16    HG   LEU  42           HG       LEU  42  -0.315  -7.561   2.366
+   17   1HD1  LEU  42          1HD1      LEU  42   1.380  -7.567   0.487
+   18   2HD1  LEU  42          3HD1      LEU  42   1.712  -5.881   0.872
+   19   3HD1  LEU  42          2HD1      LEU  42   2.036  -7.137   2.067
+   20   1HD2  LEU  42          3HD2      LEU  42  -0.826  -4.747   2.369
+   21   2HD2  LEU  42          2HD2      LEU  42  -0.404  -5.776   3.736
+   22   3HD2  LEU  42          1HD2      LEU  42   0.865  -4.994   2.798
+   23    H    SER  43           H        SER  43  -2.597  -9.963   0.253
+   24    HA   SER  43           HA       SER  43  -4.963  -9.238  -1.196
+   25   1HB   SER  43          2HB       SER  43  -5.860 -11.114   0.575
+   26   2HB   SER  43          1HB       SER  43  -4.994 -11.511  -0.912
+   27    HG   SER  43           HG       SER  43  -4.087 -12.468   1.000
+   28    H    ASP  44           H        ASP  44  -7.056  -8.631  -0.273
+   29    HA   ASP  44           HA       ASP  44  -7.224  -6.472   1.347
+   30   1HB   ASP  44          2HB       ASP  44  -9.051  -8.854   1.157
+   31   2HB   ASP  44          1HB       ASP  44  -9.432  -7.542   2.273
+   32    H    GLU  45           H        GLU  45  -7.999  -9.558   2.951
+   33    HA   GLU  45           HA       GLU  45  -7.748  -8.887   5.572
+   34   1HB   GLU  45          2HB       GLU  45  -6.496 -11.366   4.361
+   35   2HB   GLU  45          1HB       GLU  45  -6.921 -11.163   6.054
+   36   1HG   GLU  45          2HG       GLU  45  -9.265 -10.488   4.746
+   37   2HG   GLU  45          1HG       GLU  45  -8.619 -11.809   3.766
+   38    H    ASP  46           H        ASP  46  -4.835 -10.148   3.867
+   39    HA   ASP  46           HA       ASP  46  -2.956  -9.549   5.836
+   40   1HB   ASP  46          2HB       ASP  46  -2.828  -9.626   2.841
+   41   2HB   ASP  46          1HB       ASP  46  -1.430  -9.016   3.725
+   42    H    PHE  47           H        PHE  47  -3.809  -7.328   3.142
+   43    HA   PHE  47           HA       PHE  47  -2.387  -5.060   3.864
+   44   1HB   PHE  47          2HB       PHE  47  -4.188  -5.384   2.023
+   45   2HB   PHE  47          1HB       PHE  47  -5.336  -4.890   3.255
+   46    HD1  PHE  47           HD2      PHE  47  -2.459  -3.779   1.200
+   47    HD2  PHE  47           HD1      PHE  47  -5.378  -2.663   4.149
+   48    HE1  PHE  47           HE2      PHE  47  -1.883  -1.385   0.882
+   49    HE2  PHE  47           HE1      PHE  47  -4.795  -0.282   3.820
+   50    HZ   PHE  47           HZ       PHE  47  -3.051   0.345   2.185
+   51    H    LYS  48           H        LYS  48  -5.617  -5.872   4.976
+   52    HA   LYS  48           HA       LYS  48  -6.203  -3.965   6.825
+   53   1HB   LYS  48          2HB       LYS  48  -7.157  -6.498   6.380
+   54   2HB   LYS  48          1HB       LYS  48  -6.504  -6.648   8.013
+   55   1HG   LYS  48          2HG       LYS  48  -8.027  -5.191   8.906
+   56   2HG   LYS  48          1HG       LYS  48  -8.060  -4.184   7.463
+   57   1HD   LYS  48          2HD       LYS  48  -9.265  -6.249   6.374
+   58   2HD   LYS  48          1HD       LYS  48  -9.602  -6.702   8.042
+   59   1HE   LYS  48          2HE       LYS  48 -10.113  -3.861   7.424
+   60   2HE   LYS  48          1HE       LYS  48 -11.150  -4.992   6.559
+   61   1HZ   LYS  48          3HZ       LYS  48 -10.779  -5.601   9.356
+   62   2HZ   LYS  48          2HZ       LYS  48 -11.577  -4.133   9.064
+   63   3HZ   LYS  48          1HZ       LYS  48 -12.198  -5.580   8.429
+   64    H    ALA  49           H        ALA  49  -4.357  -6.875   7.874
+   65    HA   ALA  49           HA       ALA  49  -3.441  -5.477  10.275
+   66   1HB   ALA  49          2HB       ALA  49  -3.828  -8.095   9.717
+   67   2HB   ALA  49          1HB       ALA  49  -2.096  -7.983   9.410
+   68   3HB   ALA  49          3HB       ALA  49  -2.742  -7.541  10.992
+   69    H    VAL  50           H        VAL  50  -2.636  -4.140   7.863
+   70    HA   VAL  50           HA       VAL  50   0.303  -4.301   8.225
+   71    HB   VAL  50           HB       VAL  50  -1.160  -4.352   5.575
+   72   1HG1  VAL  50          3HG1      VAL  50   1.011  -2.867   5.904
+   73   2HG1  VAL  50          2HG1      VAL  50   1.818  -4.433   5.850
+   74   3HG1  VAL  50          1HG1      VAL  50   0.843  -3.900   4.483
+   75   1HG2  VAL  50          1HG2      VAL  50  -0.725  -6.484   7.019
+   76   2HG2  VAL  50          3HG2      VAL  50  -0.266  -6.521   5.318
+   77   3HG2  VAL  50          2HG2      VAL  50   0.961  -6.258   6.557
+   78    H    PHE  51           H        PHE  51  -1.665  -2.465   5.879
+   79    HA   PHE  51           HA       PHE  51  -0.377   0.019   6.744
+   80   1HB   PHE  51          2HB       PHE  51  -2.673  -0.458   4.823
+   81   2HB   PHE  51          1HB       PHE  51  -1.857   1.085   5.066
+   82    HD1  PHE  51           HD2      PHE  51   0.493   1.389   4.366
+   83    HD2  PHE  51           HD1      PHE  51  -1.655  -2.239   3.582
+   84    HE1  PHE  51           HE2      PHE  51   2.179   0.760   2.667
+   85    HE2  PHE  51           HE1      PHE  51   0.021  -2.866   1.872
+   86    HZ   PHE  51           HZ       PHE  51   1.937  -1.368   1.405
+   87    H    GLY  52           H        GLY  52  -3.824  -0.633   6.251
+   88   1HA   GLY  52          2HA       GLY  52  -4.991  -0.480   8.696
+   89   2HA   GLY  52          1HA       GLY  52  -4.541   1.210   8.419
+   90    H    MET  53           H        MET  53  -5.011   1.702   5.855
+   91    HA   MET  53           HA       MET  53  -7.938   1.349   5.611
+   92   1HB   MET  53          2HB       MET  53  -6.046   2.971   3.870
+   93   2HB   MET  53          1HB       MET  53  -7.811   3.090   3.922
+   94   1HG   MET  53          2HG       MET  53  -7.221   3.439   6.557
+   95   2HG   MET  53          1HG       MET  53  -5.798   4.166   5.813
+   96   1HE   MET  53          1HE       MET  53  -5.598   6.224   5.656
+   97   2HE   MET  53          3HE       MET  53  -6.751   7.523   5.321
+   98   3HE   MET  53          2HE       MET  53  -6.732   6.744   6.899
+   99    H    THR  54           H        THR  54  -6.829   1.835   2.545
+  100    HA   THR  54           HA       THR  54  -6.645  -1.090   1.975
+  101    HB   THR  54           HB       THR  54  -7.700   0.349  -0.276
+  102    HG1  THR  54           HG1      THR  54  -9.786   0.680   1.011
+  103   1HG2  THR  54          2HG2      THR  54  -8.215  -2.034   1.316
+  104   2HG2  THR  54          1HG2      THR  54  -9.709  -1.261   0.789
+  105   3HG2  THR  54          3HG2      THR  54  -8.505  -1.752  -0.400
+  106    H    ARG  55           H        ARG  55  -5.459  -1.533  -0.131
+  107    HA   ARG  55           HA       ARG  55  -3.060   0.028  -0.233
+  108   1HB   ARG  55          2HB       ARG  55  -4.037  -2.435  -1.294
+  109   2HB   ARG  55          1HB       ARG  55  -3.453  -1.468  -2.639
+  110   1HG   ARG  55          2HG       ARG  55  -1.466  -1.021  -0.840
+  111   2HG   ARG  55          1HG       ARG  55  -1.955  -2.641  -0.362
+  112   1HD   ARG  55          2HD       ARG  55  -0.720  -1.710  -2.911
+  113   2HD   ARG  55          1HD       ARG  55  -0.410  -3.183  -1.997
+  114    HE   ARG  55           HE       ARG  55  -2.151  -2.970  -4.229
+  115   1HH1  ARG  55          1HH2      ARG  55  -2.150  -4.226  -1.009
+  116   2HH1  ARG  55          2HH2      ARG  55  -3.528  -5.232  -1.273
+  117   1HH2  ARG  55          1HH1      ARG  55  -3.920  -4.302  -4.581
+  118   2HH2  ARG  55          2HH1      ARG  55  -4.519  -5.289  -3.291
+  119    H    SER  56           H        SER  56  -5.986  -0.187  -2.255
+  120    HA   SER  56           HA       SER  56  -5.265   1.644  -4.283
+  121   1HB   SER  56          2HB       SER  56  -7.651   0.381  -3.399
+  122   2HB   SER  56          1HB       SER  56  -7.995   2.107  -3.476
+  123    HG   SER  56           HG       SER  56  -8.337   1.176  -5.494
+  124    H    ALA  57           H        ALA  57  -7.104   2.381  -1.285
+  125    HA   ALA  57           HA       ALA  57  -6.842   5.221  -1.532
+  126   1HB   ALA  57          3HB       ALA  57  -7.940   3.377   0.364
+  127   2HB   ALA  57          2HB       ALA  57  -6.892   4.496   1.236
+  128   3HB   ALA  57          1HB       ALA  57  -8.218   5.115   0.254
+  129    H    PHE  58           H        PHE  58  -4.834   2.726  -0.043
+  130    HA   PHE  58           HA       PHE  58  -2.984   4.270   1.394
+  131   1HB   PHE  58          2HB       PHE  58  -2.839   1.888   1.440
+  132   2HB   PHE  58          1HB       PHE  58  -2.603   1.794  -0.299
+  133    HD1  PHE  58           HD1      PHE  58  -1.053   3.585   2.624
+  134    HD2  PHE  58           HD2      PHE  58  -0.440   1.371  -1.007
+  135    HE1  PHE  58           HE1      PHE  58   1.401   3.728   2.950
+  136    HE2  PHE  58           HE2      PHE  58   2.013   1.516  -0.681
+  137    HZ   PHE  58           HZ       PHE  58   2.933   2.696   1.297
+  138    H    ALA  59           H        ALA  59  -3.369   3.945  -2.062
+  139    HA   ALA  59           HA       ALA  59  -0.795   5.251  -2.635
+  140   1HB   ALA  59          2HB       ALA  59  -3.040   4.124  -4.272
+  141   2HB   ALA  59          1HB       ALA  59  -1.930   5.271  -5.023
+  142   3HB   ALA  59          3HB       ALA  59  -1.315   3.764  -4.342
+  143    H    ASN  60           H        ASN  60  -2.881   6.702  -1.041
+  144    HA   ASN  60           HA       ASN  60  -3.443   8.954  -2.922
+  145   1HB   ASN  60          2HB       ASN  60  -4.709   8.184  -0.278
+  146   2HB   ASN  60          1HB       ASN  60  -5.032   9.715  -1.099
+  147   1HD2  ASN  60          2HD2      ASN  60  -7.386   8.262  -3.268
+  148   2HD2  ASN  60          1HD2      ASN  60  -6.764   9.669  -2.530
+  149    H    LEU  61           H        LEU  61  -1.507   7.956  -0.288
+  150    HA   LEU  61           HA       LEU  61  -0.991  10.642   0.766
+  151   1HB   LEU  61          2HB       LEU  61   0.819   8.269   1.203
+  152   2HB   LEU  61          1HB       LEU  61   0.426   9.577   2.313
+  153    HG   LEU  61           HG       LEU  61  -1.966   8.126   1.549
+  154   1HD1  LEU  61          1HD1      LEU  61   0.308   6.581   2.835
+  155   2HD1  LEU  61          3HD1      LEU  61  -1.371   6.043   2.814
+  156   3HD1  LEU  61          2HD1      LEU  61  -0.479   6.209   1.301
+  157   1HD2  LEU  61          3HD2      LEU  61  -0.581   9.202   3.929
+  158   2HD2  LEU  61          2HD2      LEU  61  -2.295   9.235   3.516
+  159   3HD2  LEU  61          1HD2      LEU  61  -1.591   7.790   4.243
+  160    HA   PRO  62           HA       PRO  62   2.269  11.985  -1.820
+  161   1HB   PRO  62          2HB       PRO  62   4.429  11.915   0.112
+  162   2HB   PRO  62          1HB       PRO  62   3.557  13.322  -0.516
+  163   1HG   PRO  62          2HG       PRO  62   3.336  12.196   2.102
+  164   2HG   PRO  62          1HG       PRO  62   2.357  13.502   1.416
+  165   1HD   PRO  62          2HD       PRO  62   1.580  10.769   1.966
+  166   2HD   PRO  62          1HD       PRO  62   0.560  12.099   1.380
+  167    H    LEU  63           H        LEU  63   3.901  11.089  -3.160
+  168    HA   LEU  63           HA       LEU  63   4.190   8.287  -3.237
+  169   1HB   LEU  63          2HB       LEU  63   4.916  10.334  -4.894
+  170   2HB   LEU  63          1HB       LEU  63   6.491   9.813  -4.293
+  171    HG   LEU  63           HG       LEU  63   6.024   8.507  -6.261
+  172   1HD1  LEU  63          1HD1      LEU  63   6.644   7.403  -3.867
+  173   2HD1  LEU  63          3HD1      LEU  63   5.164   6.516  -4.232
+  174   3HD1  LEU  63          2HD1      LEU  63   6.526   6.461  -5.354
+  175   1HD2  LEU  63          3HD2      LEU  63   3.310   8.366  -5.023
+  176   2HD2  LEU  63          2HD2      LEU  63   3.760   8.571  -6.712
+  177   3HD2  LEU  63          1HD2      LEU  63   3.842   6.976  -5.968
+  178    H    TRP  64           H        TRP  64   6.339  10.705  -1.725
+  179    HA   TRP  64           HA       TRP  64   8.316   8.746  -0.971
+  180   1HB   TRP  64          2HB       TRP  64   8.989  10.515   0.727
+  181   2HB   TRP  64          1HB       TRP  64   8.983  11.049  -0.949
+  182    HD1  TRP  64           HD1      TRP  64   7.321  12.932  -1.634
+  183    HE1  TRP  64           HE1      TRP  64   5.663  14.395  -0.303
+  184    HE3  TRP  64           HE3      TRP  64   7.336  10.430   2.767
+  185    HZ2  TRP  64           HZ2      TRP  64   4.499  14.481   2.321
+  186    HZ3  TRP  64           HZ3      TRP  64   5.955  11.202   4.689
+  187    HH2  TRP  64           HH2      TRP  64   4.535  13.226   4.465
+  188    H    LYS  65           H        LYS  65   5.293   9.877   0.363
+  189    HA   LYS  65           HA       LYS  65   5.629   8.611   2.945
+  190   1HB   LYS  65          2HB       LYS  65   3.792  10.350   1.737
+  191   2HB   LYS  65          1HB       LYS  65   2.879   8.872   2.043
+  192   1HG   LYS  65          2HG       LYS  65   4.660   9.682   4.247
+  193   2HG   LYS  65          1HG       LYS  65   3.357  10.817   3.903
+  194   1HD   LYS  65          2HD       LYS  65   2.040   9.456   5.148
+  195   2HD   LYS  65          1HD       LYS  65   2.090   8.351   3.776
+  196   1HE   LYS  65          2HE       LYS  65   2.761   7.374   6.053
+  197   2HE   LYS  65          1HE       LYS  65   3.885   7.091   4.722
+  198   1HZ   LYS  65          3HZ       LYS  65   4.301   9.548   6.197
+  199   2HZ   LYS  65          2HZ       LYS  65   4.581   8.128   7.084
+  200   3HZ   LYS  65          1HZ       LYS  65   5.431   8.412   5.641
+  201    H    GLN  66           H        GLN  66   4.618   7.651  -0.251
+  202    HA   GLN  66           HA       GLN  66   3.279   5.226   0.487
+  203   1HB   GLN  66          2HB       GLN  66   4.726   5.911  -2.077
+  204   2HB   GLN  66          1HB       GLN  66   3.565   4.600  -1.855
+  205   1HG   GLN  66          2HG       GLN  66   1.916   6.377  -1.086
+  206   2HG   GLN  66          1HG       GLN  66   3.062   7.560  -1.689
+  207   1HE2  GLN  66          2HE2      GLN  66   2.204   5.127  -4.784
+  208   2HE2  GLN  66          1HE2      GLN  66   3.111   4.605  -3.448
+  209    H    GLN  67           H        GLN  67   6.296   5.391  -1.366
+  210    HA   GLN  67           HA       GLN  67   7.387   2.940  -0.837
+  211   1HB   GLN  67          2HB       GLN  67   8.857   5.584  -0.801
+  212   2HB   GLN  67          1HB       GLN  67   9.637   4.006  -0.946
+  213   1HG   GLN  67          2HG       GLN  67   8.215   3.571  -2.976
+  214   2HG   GLN  67          1HG       GLN  67   7.652   5.239  -2.873
+  215   1HE2  GLN  67          2HE2      GLN  67  10.402   5.828  -5.094
+  216   2HE2  GLN  67          1HE2      GLN  67   8.717   5.575  -5.027
+  217    H    ASN  68           H        ASN  68   7.298   5.663   1.429
+  218    HA   ASN  68           HA       ASN  68   8.938   4.398   3.431
+  219   1HB   ASN  68          2HB       ASN  68   7.085   6.729   3.327
+  220   2HB   ASN  68          1HB       ASN  68   7.443   6.052   4.919
+  221   1HD2  ASN  68          2HD2      ASN  68  10.082   8.593   3.982
+  222   2HD2  ASN  68          1HD2      ASN  68   8.380   8.661   4.060
+  223    H    LEU  69           H        LEU  69   5.445   5.086   3.791
+  224    HA   LEU  69           HA       LEU  69   4.861   3.291   5.806
+  225   1HB   LEU  69          2HB       LEU  69   3.288   4.208   3.425
+  226   2HB   LEU  69          1HB       LEU  69   2.621   2.922   4.439
+  227    HG   LEU  69           HG       LEU  69   3.642   5.537   5.565
+  228   1HD1  LEU  69          2HD1      LEU  69   0.982   4.782   4.413
+  229   2HD1  LEU  69          1HD1      LEU  69   1.017   5.824   5.836
+  230   3HD1  LEU  69          3HD1      LEU  69   1.828   6.328   4.353
+  231   1HD2  LEU  69          2HD2      LEU  69   2.907   3.066   6.717
+  232   2HD2  LEU  69          1HD2      LEU  69   3.191   4.590   7.560
+  233   3HD2  LEU  69          3HD2      LEU  69   1.563   4.164   7.035
+  234    H    LYS  70           H        LYS  70   5.659   2.571   2.503
+  235    HA   LYS  70           HA       LYS  70   4.746  -0.167   2.453
+  236   1HB   LYS  70          2HB       LYS  70   6.858   1.289   0.854
+  237   2HB   LYS  70          1HB       LYS  70   6.249  -0.321   0.462
+  238   1HG   LYS  70          2HG       LYS  70   3.955   0.597   0.275
+  239   2HG   LYS  70          1HG       LYS  70   4.582   2.198   0.647
+  240   1HD   LYS  70          2HD       LYS  70   4.308   2.004  -1.771
+  241   2HD   LYS  70          1HD       LYS  70   6.025   2.058  -1.390
+  242   1HE   LYS  70          2HE       LYS  70   6.386  -0.103  -2.028
+  243   2HE   LYS  70          1HE       LYS  70   4.816  -0.645  -1.430
+  244   1HZ   LYS  70          1HZ       LYS  70   3.852   0.663  -3.351
+  245   2HZ   LYS  70          3HZ       LYS  70   5.426   0.736  -3.976
+  246   3HZ   LYS  70          2HZ       LYS  70   4.674  -0.770  -3.751
+  247    H    LYS  71           H        LYS  71   8.171   0.721   2.063
+  248    HA   LYS  71           HA       LYS  71   9.198  -1.678   3.075
+  249   1HB   LYS  71          2HB       LYS  71  10.361   1.110   3.291
+  250   2HB   LYS  71          1HB       LYS  71  11.252  -0.353   3.723
+  251   1HG   LYS  71          2HG       LYS  71  11.872  -0.251   1.512
+  252   2HG   LYS  71          1HG       LYS  71  10.338  -1.100   1.298
+  253   1HD   LYS  71          2HD       LYS  71   9.380   0.675   0.268
+  254   2HD   LYS  71          1HD       LYS  71  10.005   1.797   1.475
+  255   1HE   LYS  71          2HE       LYS  71  11.085   2.463  -0.511
+  256   2HE   LYS  71          1HE       LYS  71  12.293   1.483   0.310
+  257   1HZ   LYS  71          2HZ       LYS  71  11.238  -0.430  -1.040
+  258   2HZ   LYS  71          1HZ       LYS  71  10.629   0.812  -2.028
+  259   3HZ   LYS  71          3HZ       LYS  71  12.306   0.638  -1.825
+  260    H    GLU  72           H        GLU  72   7.619   0.881   4.761
+  261    HA   GLU  72           HA       GLU  72   8.621   0.096   7.417
+  262   1HB   GLU  72          2HB       GLU  72   6.254   1.810   6.572
+  263   2HB   GLU  72          1HB       GLU  72   6.679   1.495   8.252
+  264   1HG   GLU  72          2HG       GLU  72   9.060   2.336   6.932
+  265   2HG   GLU  72          1HG       GLU  72   7.782   3.462   6.479
+  266    H    LYS  73           H        LYS  73   5.884  -0.557   5.307
+  267    HA   LYS  73           HA       LYS  73   5.333  -3.047   6.738
+  268   1HB   LYS  73          2HB       LYS  73   2.774  -2.147   6.563
+  269   2HB   LYS  73          1HB       LYS  73   3.746  -2.087   8.038
+  270   1HG   LYS  73          2HG       LYS  73   4.618   0.123   7.245
+  271   2HG   LYS  73          1HG       LYS  73   3.386   0.082   5.980
+  272   1HD   LYS  73          2HD       LYS  73   2.205   1.205   7.619
+  273   2HD   LYS  73          1HD       LYS  73   1.798  -0.460   8.034
+  274   1HE   LYS  73          2HE       LYS  73   3.790  -0.463   9.590
+  275   2HE   LYS  73          1HE       LYS  73   3.925   1.273   9.306
+  276   1HZ   LYS  73          3HZ       LYS  73   1.288   0.886   9.857
+  277   2HZ   LYS  73          2HZ       LYS  73   2.071  -0.162  10.938
+  278   3HZ   LYS  73          1HZ       LYS  73   2.449   1.493  10.933
+  279    H    GLY  74           H        GLY  74   3.317  -4.111   5.644
+  280   1HA   GLY  74          2HA       GLY  74   2.262  -4.868   3.703
+  281   2HA   GLY  74          1HA       GLY  74   2.587  -3.281   2.999
+  282    H    LEU  75           H        LEU  75   5.582  -4.062   3.866
+  283    HA   LEU  75           HA       LEU  75   6.231  -5.012   1.198
+  284   1HB   LEU  75          2HB       LEU  75   8.464  -4.584   1.705
+  285   2HB   LEU  75          1HB       LEU  75   7.613  -3.410   2.718
+  286    HG   LEU  75           HG       LEU  75   7.553  -5.602   4.283
+  287   1HD1  LEU  75          1HD1      LEU  75   9.875  -5.827   2.450
+  288   2HD1  LEU  75          3HD1      LEU  75  10.207  -6.105   4.168
+  289   3HD1  LEU  75          2HD1      LEU  75   8.999  -7.082   3.324
+  290   1HD2  LEU  75          2HD2      LEU  75   9.358  -3.217   4.083
+  291   2HD2  LEU  75          1HD2      LEU  75   8.156  -3.606   5.315
+  292   3HD2  LEU  75          3HD2      LEU  75   9.715  -4.434   5.313
+  293    H    PHE  76           HN       PHE  76   5.549  -6.495   4.231
+  294    HA   PHE  76           HA       PHE  76   6.809  -9.044   3.338
+  295   1HB   PHE  76          2HB       PHE  76   6.513  -7.843   5.882
+  296   2HB   PHE  76          1HB       PHE  76   5.448  -9.255   5.880
+  297    HD1  PHE  76           HD2      PHE  76   6.424 -11.517   5.220
+  298    HD2  PHE  76           HD1      PHE  76   8.834  -8.058   5.998
+  299    HE1  PHE  76           HE2      PHE  76   8.404 -12.974   5.540
+  300    HE2  PHE  76           HE1      PHE  76  10.822  -9.507   6.326
+  301    HZ   PHE  76           HZ       PHE  76  10.604 -11.962   6.103
+   
+  No H/Q in entry =         301

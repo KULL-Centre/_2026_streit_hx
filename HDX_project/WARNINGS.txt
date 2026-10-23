@@ -1,0 +1,6 @@
+1. Make sure pdb files do not contain "HISH" or "HISD" but "HIP" or "HID" instead as otherwise they won't be recognised as protein residues and mdtraj won't generate the sequence properly.
+2. Make sure N-terminal residues NH3 groups have proton names H1, H2, H3 or H, H2, H3 and not H, H1, H2 as otherwise both H/H1 are recognised as amide proton and causes issues.
+3. Each protein directory in MD_DATA should have a structure_for_seq.pdb file that is used to extract the sequence to calculate kint. This pdb file should contain only one copy if it is a dimer and only one set of residues, otherwise this will result in incorrect outputs. The sequence also needs to be sorted in ascending order (so the atom order may differ from the protein.pdb file, which is the atom order in the XTC/trajectory files. 
+
+
+

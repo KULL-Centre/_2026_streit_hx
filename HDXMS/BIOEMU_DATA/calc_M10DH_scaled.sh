@@ -1,0 +1,32 @@
+#!/bin/bash
+
+module load miniconda/py39_23.1
+source activate HDXproject
+
+code_path='/projects/lindorff_group/people/thd711/HDXMS/code/'
+
+save_dir=M10DH_scaled/
+
+for DIR in {EEHEE_rd4_0871-No-His,PROTEIN}; do
+
+	echo $DIR
+	cd $DIR
+	mkdir $save_dir
+
+	# Set ionic strength depending on system
+	if [[ "$DIR" == "PROTEIN" || "$DIR" == "PROTEIN" || "$DIR" == "PROTEIN" ]]; then
+		ionic=0.145
+	else
+		ionic=0.02
+	fi
+
+	python $code_path/calc_M10DH.py --pdb protein.pdb --topology protein.pdb --name $DIR --save_dir $save_dir --temperature 293.0 --ionic $ionic --max_frames 3000000 --filter True --charge_scaling 0.75
+
+	cd ..
+	echo "Done!"
+
+done
+
+conda deactivate
+
+

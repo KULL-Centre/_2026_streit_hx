@@ -1,0 +1,7 @@
+
+Angiotensin and Bradykinin were digitised from the source paper Figure 1 (error given in the manuscript text as 0.041).
+
+aSyn, Tau, Ab42 were processed were ../CD_DATA/ using the python scripts in that folder (mod_output for aSyn). For aSyn peptide 1-38 the peptide was present with and without a PTM and the +PTM was deleted to avoid double counting this (very similar to no PTM)
+
+aSyn, Tau, Ab42 were processed by fitting the uptake curves to derive a maxD and pooled-sd as an error
+

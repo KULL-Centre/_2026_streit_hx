@@ -1,0 +1,14 @@
+Experiment,Temp(K),pH,Ionic(M),PRE_MHz,DOI
+CS,293,6.8,0.039,nan,https://doi.org/10.1016/j.ijbiomac.2024.130802
+SAXS,288,7.4,0.17,nan,https://doi.org/10.1021/bi800900d
+RDC_HN,278,6.8,0.095,nan,https://doi.org/10.1371/journal.pbio.1000034
+PRE-I-15,278,6.8,0.095,900,https://doi.org/10.1371/journal.pbio.1000034
+PRE-I-72,278,6.8,0.095,900,https://doi.org/10.1371/journal.pbio.1000034
+PRE-I-125,278,6.8,0.095,900,https://doi.org/10.1371/journal.pbio.1000034
+PRE-I-178,278,6.8,0.095,900,https://doi.org/10.1371/journal.pbio.1000034
+PRE-I-239,278,6.8,0.095,900,https://doi.org/10.1371/journal.pbio.1000034
+PRE-I-256,278,6.8,0.095,900,https://doi.org/10.1371/journal.pbio.1000034
+PRE-I-322,278,6.8,0.095,900,https://doi.org/10.1371/journal.pbio.1000034
+PRE-I-352,278,6.8,0.095,900,https://doi.org/10.1371/journal.pbio.1000034
+PRE-I-384,278,6.8,0.095,900,https://doi.org/10.1371/journal.pbio.1000034
+PRE-I-416,278,6.8,0.095,900,https://doi.org/10.1371/journal.pbio.1000034

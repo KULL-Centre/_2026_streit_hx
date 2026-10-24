@@ -3,7 +3,7 @@ Trajectory data archives: MD_DATA_IDPs.tar, MD_DATA_dimers.tar, MD_DATA_large.ta
 Available here:
 https://zenodo.org/records/23569858
 https://zenodo.org/records/23569607
-https://zenodo.org/uploads/23568205
+https://zenodo.org/records/23568205
 
 The following will be missing:
 ACTR/

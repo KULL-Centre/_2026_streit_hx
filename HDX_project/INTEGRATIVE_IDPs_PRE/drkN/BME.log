@@ -1,0 +1,7 @@
+Lagrange multipliers initialized from zero
+Optimizing 354 data and 29977 samples. Theta=100.000000 
+CHI2 before optimization: 100226602.0760 
+Execution time: 45.48 seconds
+Minimization using L-BFGS-B successful (iterations:1040)
+CHI2 after optimization:  13.6991 
+Fraction of effective frames:   0.0069 

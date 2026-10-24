@@ -1,0 +1,3 @@
+for IDPs that have PRE data, here reweighting is done with CS+PRE constraints (ACTR, aSyn, d131d, drkN)
+
+

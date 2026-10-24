@@ -1,6 +1,6 @@
 # _2026_streit_hx
 
-This repository contains the simulation data, experimental datasets, code, and analysis scripts associated with our study of hydrogen exchange (HX) forward models and their use in refining protein conformational ensembles. It covers both residue-resolved HX-NMR protection factors and peptide-resolved hydrogen–deuterium exchange mass spectrometry (HDX-MS).
+This repository contains the experimental datasets, custom code, and analysis scripts associated with our study of hydrogen exchange (HX) forward models and their use in refining protein conformational ensembles. It covers both residue-resolved HX-NMR protection factors and peptide-resolved hydrogen–deuterium exchange mass spectrometry (HDX-MS).
 
 Streit J.O., Peterle D., Tesei G., Invernizzi M., Bottaro S., Schulze T.K., Kunz P., Tamiola K., Lindorff-Larsen K. (2026). *Integrating hydrogen-exchange experiments with conformational ensembles*. **bioRxiv**. Link TBA.
 

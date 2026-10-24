@@ -5,9 +5,9 @@ source activate HDXproject
 
 code_path='/projects/lindorff_group/people/thd711/HDX_project/code/'
 
-save_dir=rewDH/
+save_dir=DH/
 
-for DIR in {AAQAA3,ACTR,aSyn,ChiZ,BecN,d131d,drkN,NTail}; do
+for DIR in {NTail,GCN4,Calmodulin}; do
 
 	echo $DIR
 	cd $DIR

@@ -11,11 +11,24 @@ Streit J.O., Peterle D., Tesei G., Invernizzi M., Bottaro S., Schulze T.K., Kunz
 - **`scripts_for_NMR_SAXS/`** – Scripts for analyses involving NMR (CS, RDC, PRE) and small-angle X-ray scattering (SAXS) data.
 - **`HDXproject_env.yml`** – Conda environment file.
 
+
 ## Getting started
+
+### Setting up the Conda environment
+
+The Python dependencies required for the analyses are specified in `HDXproject_env.yml`. 
+
+From the root directory of this repository, create and activate the environment:
+
+```bash
+conda env create -f HDXproject_env.yml -n HDXproject
+conda activate HDXproject
+```
+
+### Running the analyses
 
 See the READMEs in [`HDX_project/`](HDX_project/readme.md) and [`HDXMS/`](HDXMS/readme.md) for their respective directory structures, input data, and analysis workflows.
 
-For HX-NMR analyses, the main workflow is to (1) prepare intrinsic exchange rates and experimental protection factors, then (2) optimise and assess the forward models using the provided scripts.
 
 ## Data availability
 

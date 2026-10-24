@@ -6,8 +6,8 @@ Streit J.O., Peterle D., Tesei G., Invernizzi M., Bottaro S., Schulze T.K., Kunz
 
 ## Repository structure
 
-- **[`HDX_project/`](HDX_project/readme.md)** – HX-NMR forward-model benchmarking, parameter optimisation, and ensemble reweighting using experimental protection factors. Includes simulation datasets, experimental data, and analysis scripts.
-- **[`HDXMS/`](HDXMS/readme.md)** – HDX-MS forward-model benchmarking and ensemble reweighting, including analyses of folded and intrinsically disordered proteins, comparisons of alternative ensembles, and cross-validation against independent measurements.
+- **[`HDX_project/`](HDX_project/readme.md)** – HX-NMR forward-model benchmarking, parameter optimisation, and ensemble reweighting using experimental protection factors. Includes scripts and jupyter notebooks to process simulation datasets, experimental data and for analysis.
+- **[`HDXMS/`](HDXMS/readme.md)** – HDX-MS forward-model benchmarking and ensemble reweighting. Includes scripts and jupyter notebooks to process simulation datasets, experimental data and for analysis.
 - **`scripts_for_NMR_SAXS/`** – Scripts for analyses involving NMR (CS, RDC, PRE) and small-angle X-ray scattering (SAXS) data.
 - **`HDXproject_env.yml`** – Conda environment file.
 
